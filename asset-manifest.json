@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/onetech/static/css/main.073c9b0a.css",
+    "main.js": "/onetech/static/js/main.b67963f1.js",
+    "static/js/787.c534c0c9.chunk.js": "/onetech/static/js/787.c534c0c9.chunk.js",
+    "static/media/logo.svg": "/onetech/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/onetech/index.html",
+    "main.073c9b0a.css.map": "/onetech/static/css/main.073c9b0a.css.map",
+    "main.b67963f1.js.map": "/onetech/static/js/main.b67963f1.js.map",
+    "787.c534c0c9.chunk.js.map": "/onetech/static/js/787.c534c0c9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.b67963f1.js"
+  ]
+}
