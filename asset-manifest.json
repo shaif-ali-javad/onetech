@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/onetech/static/css/main.15549fab.css",
-    "main.js": "/onetech/static/js/main.9c5bcc34.js",
+    "main.css": "/onetech/static/css/main.2ec2df60.css",
+    "main.js": "/onetech/static/js/main.93320845.js",
     "static/js/787.c534c0c9.chunk.js": "/onetech/static/js/787.c534c0c9.chunk.js",
     "index.html": "/onetech/index.html",
-    "main.15549fab.css.map": "/onetech/static/css/main.15549fab.css.map",
-    "main.9c5bcc34.js.map": "/onetech/static/js/main.9c5bcc34.js.map",
+    "main.2ec2df60.css.map": "/onetech/static/css/main.2ec2df60.css.map",
+    "main.93320845.js.map": "/onetech/static/js/main.93320845.js.map",
     "787.c534c0c9.chunk.js.map": "/onetech/static/js/787.c534c0c9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.15549fab.css",
-    "static/js/main.9c5bcc34.js"
+    "static/css/main.2ec2df60.css",
+    "static/js/main.93320845.js"
   ]
 }
