@@ -19,7 +19,7 @@ nav {
   position: relative;
 }
 
-#navbar li a {
+#navbar li .link {
   text-decoration: none;
   font-size: 1.3rem;
   font-weight: 600;
@@ -27,12 +27,12 @@ nav {
   transition: 0.3s ease-in-out;
 }
 
-#navbar li a:hover,
+#navbar li .link:hover,
 #navbar li .active {
   color: #17cf97;
 }
 
-#navbar li a:hover::after,
+#navbar li .link:hover::after,
 #navbar li .active::after {
   content: "";
   width: 30%;
@@ -77,7 +77,7 @@ nav {
     margin-bottom: 25px;
   }
 
-  #mobile l {
+  #mobile i {
     font-size: 24px;
     cursor: pointer;
   }
