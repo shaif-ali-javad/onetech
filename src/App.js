@@ -19,8 +19,10 @@ import {
   Route,
   Navigate,
 } from "react-router-dom";
-import Home from "./component/home.js";
-import About from "./component/about.js";
+import Home from "./component/home";
+import About from "./component/about";
+import Services from "./component/services";
+import Contact from "./component/contact";
 
 function App() {
   return (
@@ -30,7 +32,9 @@ function App() {
         <Routes>
           <Route exact path="/" element={<Home />} />
 
+          <Route path="/services" element={<Services />} />
           <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
       </Router>

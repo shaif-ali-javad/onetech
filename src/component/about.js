@@ -1,12 +1,18 @@
-import React from "react";
+import React, { Component } from "react";
+import About from "./about/about";
+import Navbar from "./home/navbar/navbar";
+import Footer from "./home/footer/footer";
 
-function About() {
-  return (
-    <div>
-      <h1>About Page</h1>
-      <p>This is the about page.</p>
-    </div>
-  );
+export class about extends Component {
+  render() {
+    return (
+      <div>
+        <Navbar />
+        <About />
+        <Footer />
+      </div>
+    );
+  }
 }
 
-export default About;
+export default about;
