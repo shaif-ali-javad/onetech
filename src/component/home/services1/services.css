@@ -1,3 +1,7 @@
+.holder {
+  width: 100%;
+}
+
 .holder .heading {
   text-align: center;
   margin: 100px 0 0;
@@ -14,7 +18,7 @@
   display: grid;
   gap: 1.5rem;
   grid-template-columns: repeat(3, 1fr);
-  margin: 50px;
+  /* margin: 1px; */
 }
 
 @media screen and (max-width: 1140px) {
@@ -78,3 +82,5 @@
 .holder .container0 .box0 .more {
   background-color: #ef4323;
 }
+/*
+*/

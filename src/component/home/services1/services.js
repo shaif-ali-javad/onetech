@@ -3,7 +3,7 @@ import "./services.css";
 
 export class Services1 extends Component {
   render() {
-    return (
+    return (<div className="container">
       <div class="holder">
         <div class="heading">
           <p>SERVICES WE OFFER</p>
@@ -80,6 +80,7 @@ export class Services1 extends Component {
             </div>
           </div>
         </div>
+      </div>
       </div>
     );
   }
