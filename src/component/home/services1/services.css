@@ -1,39 +1,46 @@
 .holder {
+  position: relative;
   width: 100%;
 }
 
 .holder .heading {
+  position: relative;
   text-align: center;
-  margin: 100px 0 0;
+  margin: 100px 0;
   padding: 0 50px;
   font-size: 25px;
 }
 
 .holder .heading p {
+  position: relative;
   font-size: 15px;
   margin-bottom: 20px;
 }
 
 .holder .container0 {
+  position: relative;
   display: grid;
   gap: 1.5rem;
   grid-template-columns: repeat(3, 1fr);
-  /* margin: 1px; */
+  margin: 0 0 600px;
 }
 
 @media screen and (max-width: 1140px) {
   .holder .container0 {
+    position: relative;
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media screen and (max-width: 760px) {
   .holder .container0 {
+    position: relative;
     grid-template-columns: repeat(1, 1fr);
   }
 }
 
 .holder .container0 .box {
+  position: relative;
   width: 100%;
   background-color: #ffffff;
   text-align: center;

@@ -4,11 +4,13 @@
 }
 
 .holder1 .heading1 {
+  position: relative;
   text-align: center;
   padding: 200px 40px 200px;
 }
 
 .holder1 .heading1 h2 {
+  position: relative;
   font-size: 5rem;
   margin-bottom: 20px;
 }
