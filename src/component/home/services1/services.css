@@ -41,6 +41,18 @@
   }
 }
 
+@media screen and (max-width: 500px) {
+  .services1 .holder .container0 {
+    margin: 0 0 1600px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .services1 .holder .container0 {
+    margin: 0 0 1700px;
+  }
+}
+
 .services1 .holder .container0 .box {
   position: relative;
   width: 100%;
