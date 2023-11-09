@@ -1,3 +1,6 @@
+img {
+  width: 9rem;
+}
 nav {
   position: fixed;
   display: flex;
@@ -82,10 +85,13 @@ nav {
   }
 
   #mobile i {
+    position: absolute;
     font-size: 24px;
     cursor: pointer;
+    margin-top: -15px;
   }
   #navbar.active {
     right: 0;
+    top: 0;
   }
 }
