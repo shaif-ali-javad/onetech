@@ -1,9 +1,9 @@
-.holder {
+.services1 .holder {
   position: relative;
   width: 100%;
 }
 
-.holder .heading {
+.services1 .holder .heading {
   position: relative;
   text-align: center;
   margin: 100px 0;
@@ -11,74 +11,76 @@
   font-size: 25px;
 }
 
-.holder .heading p {
+.services1 .holder .heading p {
   position: relative;
   font-size: 15px;
   margin-bottom: 20px;
 }
 
-.holder .container0 {
+.services1 .holder .container0 {
   position: relative;
   display: grid;
   gap: 1.5rem;
   grid-template-columns: repeat(3, 1fr);
-  margin: 0 0 600px;
+  margin: 0 0 100px;
 }
 
 @media screen and (max-width: 1140px) {
-  .holder .container0 {
+  .services1 .holder .container0 {
     position: relative;
     grid-template-columns: repeat(2, 1fr);
+    margin: 0 0 400px;
   }
 }
 
-@media screen and (max-width: 760px) {
-  .holder .container0 {
+@media screen and (max-width: 770px) {
+  .services1 .holder .container0 {
     position: relative;
     grid-template-columns: repeat(1, 1fr);
+    margin: 0 0 1500px;
   }
 }
 
-.holder .container0 .box {
+.services1 .holder .container0 .box {
   position: relative;
   width: 100%;
   background-color: #ffffff;
   text-align: center;
-  padding: 40px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0), 0 7px 20px 0 rgba(0, 0, 0, 0.1);
   border-radius: 10px;
-  transition: 0.3s;
+  transition: box-shadow 0.3 ease-in-out;
+  padding: 40px;
 }
 
-.holder .container0 .box:hover {
+.services1 .holder .container0 .box:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0), 0 2px 50px 0 rgba(0, 0, 0, 0.1);
 }
 
-.holder .container0 .color {
+.services1 .holder .container0 .color {
   background-color: #011032;
   color: #fff;
 }
 
-.holder .container0 img {
+.services1 .holder .container0 img {
   height: 50px;
   margin: 25px;
 }
 
-.holder .container0 h4 {
+.services1 .holder .container0 h4 {
   color: #ef4323;
   font-size: 25px;
   margin-bottom: 20px;
 }
 
-.holder .container0 .box0 h4 {
+.services1 .holder .container0 .box0 h4 {
   color: #ef4323;
 }
 
-.holder .container0 .p {
+.services1 .holder .container0 .p {
   margin-bottom: 20px;
 }
 
-.holder .container0 .more {
+.services1 .holder .container0 .more {
   width: 130px;
   background-color: #ef4323;
   margin: auto;
@@ -86,7 +88,7 @@
   color: #fff;
 }
 
-.holder .container0 .box0 .more {
+.services1 .holder .container0 .box0 .more {
   background-color: #ef4323;
 }
 /*

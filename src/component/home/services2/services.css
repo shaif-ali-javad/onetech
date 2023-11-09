@@ -1,20 +1,20 @@
-.holder1 {
+.services2 .holder1 {
   margin: 0 0 70px;
   width: 100%;
 }
 
-.holder1 .heading1 {
+.services2 .holder1 .heading1 {
   position: relative;
   text-align: center;
   padding: 200px 40px 200px;
 }
 
-.holder1 .heading1 h2 {
+.services2 .holder1 .heading1 h2 {
   position: relative;
   font-size: 5rem;
   margin-bottom: 20px;
 }
-.holder1 .container1 {
+.services2 .holder1 .container1 {
   /* 
      display: grid;
      grid-template-columns: repeat(3, 1fr);
@@ -23,9 +23,9 @@
      */
   width: 100%;
 }
-.holder1 .container1 .box-0,
-.holder1 .container1 .box-1,
-.holder1 .container1 .box-2 {
+.services2 .holder1 .container1 .box-0,
+.services2 .holder1 .container1 .box-1,
+.services2 .holder1 .container1 .box-2 {
   /* position: relative;
      width: 100%;
      background-color: #ffffff;
@@ -34,13 +34,13 @@
   box-shadow: 0 4px 8px 0 #00000000, 0 7px 20px 0 rgba(0, 0, 0, 0.1);
 }
 
-.holder1 .container1 .box-0,
-.holder1 .container1 .box-2 {
+.services2 .holder1 .container1 .box-0,
+.services2 .holder1 .container1 .box-2 {
   border-radius: 2rem 10rem;
   margin-top: 1rem;
 }
 
-.holder1 .container1 .box-1::before {
+.services2 .holder1 .container1 .box-1::before {
   content: "";
   position: absolute;
   top: 0;
@@ -52,7 +52,7 @@
   z-index: -2;
 }
 
-.holder1 .container1 .box-1 {
+.services2 .holder1 .container1 .box-1 {
   background-image: url(image/31182906.jpg);
   background-size: 1190px;
   z-index: -3;
@@ -61,90 +61,90 @@
   margin-top: 1rem;
 }
 
-.holder1 .container1 .box-0 .h,
-.holder1 .container1 .box-2 .h {
+.services2 .holder1 .container1 .box-0 .h,
+.services2 .holder1 .container1 .box-2 .h {
   color: #777;
 }
 
-.holder1 .container1 .box-1 .h {
+.services2 .holder1 .container1 .box-1 .h {
   color: #fff;
 }
 
-.holder1 .container1 h3 {
+.services2 .holder1 .container1 h3 {
   font-size: 2rem;
 }
 
-.holder1 .container1 h4 {
+.services2 .holder1 .container1 h4 {
   font-size: 18px;
   margin: 20px;
 }
 
-.holder1 .container1 .p {
+.services2 .holder1 .container1 .p {
   font-size: 70px;
 }
 
-.holder1 .container1 .p1 {
+.services2 .holder1 .container1 .p1 {
   margin: 10px;
   padding: 40px;
   width: 300px;
   border-bottom: 1px solid #a8a8a8;
 }
 /* 
-  .holder1 .container1 .benifits {
+  .services2 .holder1 .container1 .benifits {
      text-align: left;
      margin: 30px 0 20px 0px;
   }
   */
-.holder1 .container1 .benifits .svg p,
-.holder1 .container1 .benifits .svg-1 p {
+.services2 .holder1 .container1 .benifits .svg p,
+.services2 .holder1 .container1 .benifits .svg-1 p {
   margin: 10px 0;
 }
 /*
-  .holder1 .container1 .get {
+  .services2 .holder1 .container1 .get {
      height: 45px;
      width: 100%;
      background-color: #ef4323;
      border-radius: 40px;
   }
   
-  .holder1 .container1 .box-0 .get {
+  .services2 .holder1 .container1 .box-0 .get {
      margin: 19px 0 0;
   } */
 
-.holder1 .container1 .get p {
+.services2 .holder1 .container1 .get p {
   /* padding: 15px; */
   color: #fff;
   text-align: center;
 }
 
-.holder1 .container1 .p2 {
+.services2 .holder1 .container1 .p2 {
   /* text-align: center;
      padding: 25px; */
   font-size: 15px;
 }
 
-.holder1 .container1 .benifits .svg,
-.holder1 .container1 .benifits .svg-1 {
+.services2 .holder1 .container1 .benifits .svg,
+.services2 .holder1 .container1 .benifits .svg-1 {
   display: flex;
 }
 
-.holder1 .container1 .benifits .svg svg,
-.holder1 .container1 .benifits .svg-1 svg {
+.services2 .holder1 .container1 .benifits .svg svg,
+.services2 .holder1 .container1 .benifits .svg-1 svg {
   height: 40px;
   color: #032d8e;
 }
 
-.holder1 .container1 .benifits .svg-1 svg {
+.services2 .holder1 .container1 .benifits .svg-1 svg {
   margin-left: 7px;
 }
-.holder1 .container1 .benifits .svg-1 p {
+.services2 .holder1 .container1 .benifits .svg-1 p {
   margin-left: 7px;
 }
 
 @media screen and (max-width: 575px) {
-  .holder1 .container1 .box-0,
-  .holder1 .container1 .box-1,
-  .holder1 .container1 .box-2 {
+  .services2 .holder1 .container1 .box-0,
+  .services2 .holder1 .container1 .box-1,
+  .services2 .holder1 .container1 .box-2 {
     width: 27rem;
   }
 }
