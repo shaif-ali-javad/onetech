@@ -13,7 +13,7 @@ class Navbar extends Component {
       <>
         <nav>
           <a href="/">
-            <img src={logo} alt="logo" />
+            <img src={logo} className="logo" alt="logo" />
           </a>
           <div>
             <ul
