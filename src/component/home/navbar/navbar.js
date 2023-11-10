@@ -1,63 +1,6 @@
-// import React, { Component } from "react";
-// import { Link } from "react-router-dom";
-// import "./navbar.css";
-// import logo from "./image/Artboard 1@00x.png";
-
-// class Navbar extends Component {
-//   state = { clicked: false };
-//   handleclick = () => {
-//     this.setState({ clicked: !this.state.clicked });
-//   };
-//   render() {
-//     return (
-//       <>
-//         <nav>
-//           <a href="/">
-//             <img src={logo} alt="logo" />
-//           </a>
-//           <div>
-//             <ul
-//               id="navbar"
-//               className={this.state.clicked ? "#navbar active" : "#navbar"}
-//             >
-//               <li>
-//                 <Link className="active link" to="/">
-//                   HOME
-//                 </Link>
-//               </li>
-//               <li>
-//                 <Link className="link" to="/services">
-//                   SERVICES
-//                 </Link>
-//               </li>
-//               <li>
-//                 <Link className="link" to="/about">
-//                   ABOUT US
-//                 </Link>
-//               </li>
-//               <li>
-//                 <Link className="link" to="/contact">
-//                   CONTACT US
-//                 </Link>
-//               </li>
-//             </ul>
-//           </div>
-//           <div id="mobile" onClick={this.handleclick}>
-//             <i
-//               id="bar"
-//               className={this.state.clicked ? "fas fa-times" : "fas fa-bars"}
-//             ></i>
-//           </div>
-//         </nav>
-//       </>
-//     );
-//   }
-// }
-// export default Navbar;
-
 import React, { Component } from "react";
-import "./navbar1.css";
-import { NavbarData } from "./navbarData";
+import { NavLink } from "react-router-dom";
+import "./navbar.css";
 import logo from "./image/Artboard 1@00x.png";
 
 class Navbar extends Component {
@@ -67,41 +10,103 @@ class Navbar extends Component {
   };
   render() {
     return (
-      <div className="navbar">
-        <a href="/">
-          <img src={logo} alt="logo" />
-        </a>
-        <ul
-          className={this.state.clicked ? "navbarlist active1" : "navbarlist"}
-        >
-          ;
-          {NavbarData.map((val, key) => {
-            return (
-              <>
-                <li
-                  className="row"
-                  id={window.location.pathname == val.link ? "active" : ""}
-                  key={key}
-                  onClick={() => {
-                    window.location.pathname = val.link;
-                  }}
-                >
-                  <div id="icon">{val.icon}</div>
-                  <div id="title">{val.title}</div>
-                </li>
-              </>
-            );
-          })}
-          ;
-        </ul>
-        <div id="mobile" onClick={this.handleclick}>
-          <i
-            id="bar"
-            className={this.state.clicked ? "fas fa-times" : "fas fa-bars"}
-          ></i>
-        </div>
-      </div>
+      <>
+        <nav>
+          <a href="/">
+            <img src={logo} alt="logo" />
+          </a>
+          <div>
+            <ul
+              id="navbar"
+              className={this.state.clicked ? "#navbar active1" : "#navbar"}
+            >
+              <li>
+                <NavLink className="link" to="/">
+                  HOME
+                </NavLink>
+              </li>
+              <li>
+                <NavLink className="link" to="/services">
+                  SERVICES
+                </NavLink>
+              </li>
+              <li>
+                <NavLink className="link" to="/about">
+                  ABOUT US
+                </NavLink>
+              </li>
+              <li>
+                <NavLink className="link" to="/contact">
+                  CONTACT US
+                </NavLink>
+              </li>
+            </ul>
+          </div>
+          <div id="mobile" onClick={this.handleclick}>
+            <i
+              id="bar"
+              className={this.state.clicked ? "fas fa-times" : "fas fa-bars"}
+            ></i>
+          </div>
+        </nav>
+      </>
     );
   }
 }
 export default Navbar;
+
+// import React, { Component } from "react";
+// import "./navbar1.css";
+// import logo from "./image/Artboard 1@00x.png";
+// import { NavLink } from "react-router-dom";
+
+// class Navbar extends Component {
+//   state = { clicked: false };
+//   handleclick = () => {
+//     this.setState({ clicked: !this.state.clicked });
+//   };
+//   render() {
+//     return (
+//       <nav className="navbar">
+//         <a href="/">
+//           <img src={logo} alt="logo" />
+//         </a>
+
+//         <div>
+//           <ul
+//             id="navbar"
+//             className={this.state.clicked ? "#navbar active" : "#navbar"}
+//           >
+//             <li>
+//               <NavLink className="active link" to="/">
+//                 HOME
+//               </NavLink>
+//             </li>
+//             <li>
+//               <NavLink className="link" to="/services">
+//                 SERVICES
+//               </NavLink>
+//             </li>
+//             <li>
+//               <NavLink className="link" to="/about">
+//                 ABOUT US
+//               </NavLink>
+//             </li>
+//             <li>
+//               <NavLink className="link" to="/contact">
+//                 CONTACT US
+//               </NavLink>
+//             </li>
+//           </ul>
+//         </div>
+//         <div id="mobile" onClick={this.handleclick}>
+//           <i
+//             id="bar"
+//             className={this.state.clicked ? "fas fa-times" : "fas fa-bars"}
+//           ></i>
+//         </div>
+//       </nav>
+//     );
+//   }
+// }
+// export default Navbar;

@@ -1,3 +1,12 @@
+.active::after {
+  position: absolute;
+  content: "";
+  width: 30%;
+  height: 2px;
+  background-color: #17cf97;
+  bottom: -4px;
+  left: 20px;
+}
 img {
   width: 9rem;
 }
@@ -34,13 +43,7 @@ nav {
   transition: 0.3s ease-in-out;
 }
 
-#navbar li .link:hover,
-#navbar li .active {
-  color: #17cf97;
-}
-
-#navbar li .link:hover::after,
-#navbar li .active::after {
+#navbar li .link:not(.active):hover:after {
   content: "";
   width: 30%;
   height: 2px;
@@ -58,7 +61,6 @@ nav {
   color: #fff;
   margin: 21.3px 0;
 }
-
 @media screen and (max-width: 896px) {
   #mobile {
     display: block;
@@ -72,7 +74,7 @@ nav {
     position: fixed;
     top: 90px;
     right: -300px;
-    width: 300px;
+    width: 250px;
     height: 100vh;
     background-color: #2a3239;
     box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
@@ -90,8 +92,8 @@ nav {
     cursor: pointer;
     margin-top: -15px;
   }
-  #navbar.active {
-    right: 0;
+  #navbar.active1 {
+    right: 0px;
     top: 0;
   }
 }
