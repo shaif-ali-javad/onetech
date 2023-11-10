@@ -1,5 +1,5 @@
 import React from "react";
-// import { Home } from "./img/home";
+import "react-router-dom";
 
 export const NavbarData = [
   { title: "HOME", link: "/" },
