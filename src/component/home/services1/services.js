@@ -15,7 +15,7 @@ export class Services1 extends Component {
               <div class="box color">
                 <img src="image/customer-service.png" alt="" />
                 <h4>Complete IT Support</h4>
-                <p class="p">
+                <p class="p-main">
                   We take a proactive approach to IT support and focus on what
                   matters most to our customers.
                 </p>
