@@ -36,8 +36,47 @@
   text-transform: uppercase;
   color: #000;
   padding: 1rem;
-  font-size: 10vw;
+  font-size: 15vw;
   letter-spacing: 10px;
+}
+@media screen and (max-width: 1100px) {
+  .img-main {
+    height: 90vh;
+  }
+
+  .content-main {
+    height: 100vh;
+  }
+}
+@media screen and (max-width: 1040px) {
+  .img-main {
+    height: 80vh;
+  }
+
+  .content-main {
+    height: 90vh;
+  }
+}
+@media screen and (max-width: 920px) {
+  .img-main {
+    height: 70vh;
+  }
+
+  .content-main {
+    height: 80vh;
+  }
+}
+@media screen and (max-width: 810px) {
+  .img-main {
+    width: 1000px;
+  }
+
+  .content-main {
+    height: 80vh;
+    /* margin: 0 50% 0 -10%; */
+    width: 100vw;
+    margin: auto;
+  }
 }
 @media screen and (max-width: 885px) {
   .img {
