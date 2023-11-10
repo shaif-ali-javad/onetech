@@ -1,3 +1,6 @@
+.img-main-over {
+  overflow: hidden;
+}
 .img-main {
   position: relative;
   height: 100vh;
