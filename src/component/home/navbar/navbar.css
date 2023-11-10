@@ -59,7 +59,7 @@ nav {
   margin: 21.3px 0;
 }
 
-@media screen and (max-width: 845px) {
+@media screen and (max-width: 896px) {
   #mobile {
     display: block;
     cursor: pointer;
