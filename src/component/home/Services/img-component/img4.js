@@ -1,6 +1,6 @@
 import { Parallax } from "react-parallax";
 import "./img.css";
-import name from "../image/parelall-scroll/4.jpg";
+import name from "../image/parelall-scroll/4.jfif";
 
 const Img4 = () => (
   <Parallax className="img" bgImage={name} bgImageAlt="the cat" strength={100}>
