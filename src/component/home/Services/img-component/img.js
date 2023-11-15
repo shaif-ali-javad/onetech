@@ -1,3 +1,4 @@
+import { lazy } from "react";
 import { Parallax } from "react-parallax";
 import "./img.css";
 import name from "../image/20512813.jpg";

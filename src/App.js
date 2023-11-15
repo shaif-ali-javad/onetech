@@ -12,30 +12,27 @@
 //   );
 // }
 
-import React from "react";
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
-  Navigate,
-} from "react-router-dom";
+import React, { lazy, Suspense } from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./component/home";
-import About from "./component/about";
-import Services from "./component/services";
-import Contact from "./component/contact";
+const About = lazy(() => import("./component/about"));
+const Services = lazy(() => import("./component/services"));
+const Contact = lazy(() => import("./component/contact"));
 
 function App() {
   return (
     <>
       <Router>
-        <Routes>
-          <Route exact path="/" element={<Home />} />
+        <Suspense fallback={<h1>loading....</h1>}>
+          <Routes>
+            <Route exact path="/" element={<Home />} />
 
-          <Route path="/services" element={<Services />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
-          {/* <Route path="*" element={<Navigate to="/" />} /> */}
-        </Routes>
+            <Route path="/services" element={<Services />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/contact" element={<Contact />} />
+            {/* <Route path="*" element={<Navigate to="/" />} /> */}
+          </Routes>
+        </Suspense>
       </Router>
     </>
   );

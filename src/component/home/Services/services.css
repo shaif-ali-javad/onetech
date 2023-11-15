@@ -31,6 +31,16 @@
 }
 
 /* ------------------------ */
+/* ------- services heading --------- */
+/* ------------------------ */
+.line {
+  color: #011032;
+  margin-bottom: 50px;
+  margin-top: 60px;
+  position: relative;
+  text-align: center;
+}
+/* ------------------------ */
 /* ------- services --------- */
 /* ------------------------ */
 
@@ -44,8 +54,7 @@
 .bgimg-8,
 .bgimg-9,
 .bgimg-10,
-.bgimg-11,
-.bgimg-12 {
+.bgimg-11 {
   position: relative;
   /* background-attachment: fixed; */
   background-position: center;
