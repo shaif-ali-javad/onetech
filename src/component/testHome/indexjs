@@ -1,41 +1,18 @@
-// import React from "react";
-// import Navbar from "./home/navbar/navbar";
-// import Services from "./home/Services/services";
-// import Services1 from "./home/services1/services";
-// import Services2 from "./home/services2/services";
-// import Partners from "./home/partners/partners";
-// import Footer from "./home/footer/footer";
+import React from 'react';
 
-// function Home() {
-//   return (
-//     <div>
-//       <Navbar />
-//       <Services />
-//       <Services1 />
-//       <Services2 />
-//       <Partners />
-//       <Footer />
-//     </div>
-//   );
-// }
+import SupportEngine from '../SupportEngine';
 
-// export default Home;
-
-import React from "react";
-
-import SupportEngine from "./support-engine/index";
-
-import "./index.css";
+import './index.css';
 
 const Home = () => {
   return (
     <div>
-      <div dangerouslySetInnerHTML={{ __html: htmlCode }}></div>
+        <div dangerouslySetInnerHTML={{ __html: htmlCode }} ></div>
 
-      <SupportEngine />
+        <SupportEngine />
     </div>
   );
-};
+}
 
 export default Home;
 
@@ -1190,4 +1167,4 @@ export const htmlCode = `
       })();
     </script>
 </div>
-`;
+`

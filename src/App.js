@@ -20,21 +20,20 @@ import {
   Navigate,
 } from "react-router-dom";
 import Home from "./component/home";
-import About from "./component/about";
-import Services from "./component/services";
-import Contact from "./component/contact";
+// import About from "./component/about";
+// import Services from "./component/services";
+// import Contact from "./component/contact";
 
 function App() {
   return (
     <>
-      {/* This is the alias of BrowserRouter i.e. Router */}
       <Router>
         <Routes>
           <Route exact path="/" element={<Home />} />
 
-          <Route path="/services" element={<Services />} />
+          {/* <Route path="/services" element={<Services />} />
           <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/contact" element={<Contact />} /> */}
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
       </Router>
