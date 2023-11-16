@@ -121,7 +121,10 @@ form button {
   margin: 20px auto 0;
   border-radius: 30px;
 }
-
+.chat-link {
+  margin: 100px auto;
+  text-align: center;
+}
 .end p {
   color: #fff;
   position: relative;

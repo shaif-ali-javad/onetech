@@ -67,6 +67,11 @@ export class Contact extends Component {
             referrerpolicy="no-referrer-when-downgrade"
           ></iframe>
         </div>
+        <div className="chat-link">
+          <h3>
+            technical assistance by <a href="http://">chat</a>
+          </h3>
+        </div>
         <div class="container0">
           <form id="submit-form" action="">
             <h3>GET IN TECH</h3>
