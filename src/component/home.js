@@ -5,12 +5,14 @@ import Services1 from "./home/services1/services";
 import Services2 from "./home/services2/services";
 import Partners from "./home/partners/partners";
 import Footer from "./home/footer/footer";
+import Web from "./home/web-services/web-s";
 
 function Home() {
   return (
     <div>
       <Navbar />
       <Services />
+      <Web />
       <Services1 />
       <Services2 />
       <Partners />
