@@ -4,9 +4,11 @@ import name from "../image/parelall-scroll/5(1).jpg";
 
 const Img5 = () => (
   <Parallax className="img" bgImage={name} bgImageAlt="the cat" strength={100}>
-    {/* <div className="content">
+    <div className="img-container">
+      {/* <div className="content">
       <span className="img-txt">Backup and Disaster Recovery Management</span>
     </div> */}
+    </div>
   </Parallax>
 );
 
