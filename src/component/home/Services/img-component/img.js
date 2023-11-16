@@ -12,15 +12,17 @@ const Img = () => (
       bgImageAlt="the cat"
       strength={100}
     >
-      <div className="content-main-container">
+      {/* <div className="content-main-container">
         <div className="content-main">
-          <span className="img-main-txt">Onetech</span>
+          <div className="main-txt">
+            <span className="img-main-txt">Onetech</span>
 
-          <div className="content-main-type">
-            <Text />
+            <div className="content-main-type">
+              <Text />
+            </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </Parallax>
   </div>
 );

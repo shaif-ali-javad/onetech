@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./services.css";
 import Img from "./img-component/img";
+import Img_txt from "./img-component/img-txt";
 import Img0 from "./img-component/img0";
 import Img1 from "./img-component/img1";
 import Img2 from "./img-component/img2";
@@ -19,6 +20,7 @@ export class Services extends Component {
     return (
       <>
         <Img />
+        <Img_txt />
         <div className="line">
           <h1 className="text-red-500">Value Added Range of ICT Solutions</h1>
           <p className="">
