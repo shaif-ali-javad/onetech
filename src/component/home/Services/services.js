@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import "./services.css";
-import Img from "./img-component/img";
+
 import Img_txt from "./img-component/img-txt";
+import Img from "./img-component/img";
 import Img0 from "./img-component/img0";
 import Img1 from "./img-component/img1";
 import Img2 from "./img-component/img2";
@@ -30,7 +31,6 @@ export class Services extends Component {
           </p>
         </div>
         <Img0 />
-
         <div className="text0">
           <h3 className="text1 h1 hidden">Office Automation</h3>
           <p className="text1 hidden">
@@ -50,7 +50,6 @@ export class Services extends Component {
           </div>
         </div>
         <Img1 />
-
         <div className="text3">
           <div className="text-center text4">
             <h3 className="text-white">Software Solutions</h3>
@@ -72,7 +71,6 @@ export class Services extends Component {
           </div>
         </div>
         <Img2 />
-
         <div className="text3">
           <div className="text-center center text4">
             <h3 className="text-white">AV Solutions</h3>
@@ -91,7 +89,6 @@ export class Services extends Component {
           </div>
         </div>
         <Img3 />
-
         <div className="text3">
           <div className="text-center center text4">
             <h3 className="text-white">Structured Cabling</h3>
@@ -113,7 +110,6 @@ export class Services extends Component {
           </div>
         </div>
         <Img4 />
-
         <div className="text3">
           <div className="text-center center text4">
             <h3 className="text-white">ELV Systems</h3>
@@ -132,7 +128,6 @@ export class Services extends Component {
           </div>
         </div>
         <Img5 />
-
         <div className="text3">
           <div className="text-center center text4">
             <h3 className="text-white">
@@ -158,7 +153,6 @@ export class Services extends Component {
           </div>
         </div>
         <Img6 />
-
         <div className="text3">
           <div className="text-center center text4">
             <h3 className="text-white">Home Automation</h3>
@@ -184,7 +178,6 @@ export class Services extends Component {
           </div>
         </div>
         <Img7 />
-
         <div className="text3">
           <div className="text-center center text4">
             <h3 className="text-white">Cloud Services</h3>
@@ -209,7 +202,6 @@ export class Services extends Component {
           </div>
         </div>
         <Img8 />
-
         <div className="text3">
           <div className="text-center center text4">
             <h3 className="text-white">Maintenance & Support</h3>
@@ -235,7 +227,6 @@ export class Services extends Component {
           </div>
         </div>
         <Img9 />
-
         <div className="text3">
           <div className="text-center center text4">
             <h3 className="text-white">AI Based Solutions</h3>
@@ -258,7 +249,6 @@ export class Services extends Component {
           </div>
         </div>
         <Img10 />
-
         <div className="text3">
           <div className="text-center center text4">
             <h3 className="text-white">Data Centre Solutions</h3>
@@ -284,7 +274,6 @@ export class Services extends Component {
           </div>
         </div>
         <Img11 />
-
         <div className="text3">
           <div className="text-center center text4">
             <h3 className="text-white">Microsoft Azure / Office 365</h3>

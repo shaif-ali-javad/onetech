@@ -1,4 +1,3 @@
-// import "./App.css";
 // import Home from "./component/home";
 // import Services from "./component/services";
 // import { BrowserRouter as Router, Route } from "react-router-dom";
@@ -11,10 +10,11 @@
 //     </div>
 //   );
 // }
-
+import "./App.css";
 import React, { lazy, Suspense } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./component/home";
+
 const About = lazy(() => import("./component/about"));
 const Services = lazy(() => import("./component/services"));
 const Contact = lazy(() => import("./component/contact"));

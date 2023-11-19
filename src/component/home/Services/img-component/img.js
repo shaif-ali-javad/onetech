@@ -1,30 +1,23 @@
-import { lazy } from "react";
+import { Component } from "react";
 import { Parallax } from "react-parallax";
-import "./img.css";
+import animation0 from "../../assets/lt62Jujd6s.json";
+import Lottie from "lottie-react";
 import name from "../image/20512813.jpg";
-import Text from "./img-typewriter";
 
-const Img = () => (
-  <div className="img-main-over">
-    <Parallax
-      className="img-main"
-      bgImage={name}
-      bgImageAlt="the cat"
-      strength={100}
-    >
-      {/* <div className="content-main-container">
-        <div className="content-main">
-          <div className="main-txt">
-            <span className="img-main-txt">Onetech</span>
-
-            <div className="content-main-type">
-              <Text />
-            </div>
-          </div>
-        </div>
-      </div> */}
-    </Parallax>
-  </div>
-);
-
+export class Img extends Component {
+  render() {
+    return (
+      <div className="img-bg">
+        <Parallax
+          className="img-main"
+          bgImage={name}
+          bgImageAlt="the cat"
+          strength={100}
+        >
+          <Lottie animationData={animation0} className="img-main-1" />
+        </Parallax>
+      </div>
+    );
+  }
+}
 export default Img;

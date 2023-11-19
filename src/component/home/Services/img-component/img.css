@@ -5,6 +5,11 @@
   position: relative;
   height: 100vh;
 }
+.img-main-1 {
+  width: 1600px;
+  margin-top: -50px;
+  margin-left: -150px;
+}
 .img {
   position: relative;
   height: 50vh;
@@ -30,7 +35,7 @@
 .content span.img-txt {
   background-color: #333;
   text-transform: uppercase;
-  color: #fff;
+  color: #000000;
   padding: 1.2rem;
   font-size: 1.5rem;
   letter-spacing: 10px;
@@ -39,9 +44,9 @@
 }
 .content-main span.img-main-txt {
   text-transform: uppercase;
-  color: #000;
+  color: #ffffff;
   padding: 1rem;
-  font-size: 15vw;
+  font-size: 14vw;
   letter-spacing: 10px;
   width: 100%;
 }

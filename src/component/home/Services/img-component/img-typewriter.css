@@ -6,11 +6,12 @@
 }
 .type {
   text-transform: uppercase;
-  color: #000;
+  color: #ffffff;
   padding: 1rem;
-  font-size: 4vw;
+  font-size: 3vw;
   letter-spacing: 10px;
 }
 .type-txt {
   border-bottom: 4px solid #0ebc88;
+  color: #ffffff;
 }
