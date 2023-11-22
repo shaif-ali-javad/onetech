@@ -1,8 +1,11 @@
 import { useEffect, useRef } from "react";
 import "./framer-m.css";
+// import "./home/Services/img-component/img.css";
 
 // import "aos/dist/aos.css";
 // import Aos from "aos";
+
+import Img_txt from "./home/Services/img-component/img-txt";
 
 import Img0 from "./home/Services/image/parelall-scroll/0(1).jpg";
 import Img1 from "./home/Services/image/parelall-scroll/1(1).jpg";
@@ -16,6 +19,7 @@ import Img8 from "./home/Services/image/parelall-scroll/8(1).jpg";
 import Img9 from "./home/Services/image/parelall-scroll/9(1).jpg";
 import Img10 from "./home/Services/image/parelall-scroll/10(1).jpg";
 import Img11 from "./home/Services/image/parelall-scroll/11(1).png";
+
 import { motion, useScroll, useTransform } from "framer-motion";
 
 const Page = () => {
@@ -25,11 +29,11 @@ const Page = () => {
         <motion.h1 className="box-h">
           <Img_txt />
         </motion.h1>
-        <div className="">
+        <div className="grid-container">
           <div className="grid">
             <motion.div
               className="boxes"
-              initial={{ y: -400 }}
+              initial={{ y: -200 }}
               viewport={{ once: true }}
               whileInView={{ y: 0 }}
               transition={{ duration: 1 }}
@@ -56,9 +60,9 @@ const Page = () => {
             </div>
             <motion.div
               className="boxes"
-              initial={{ x: 650 }}
+              initial={{ y: 200 }}
               viewport={{ once: true }}
-              whileInView={{ x: 0 }}
+              whileInView={{ y: 0 }}
               transition={{ duration: 1 }}
             >
               <img src={Img1} className="img1" />
@@ -67,9 +71,9 @@ const Page = () => {
           <div className="grid">
             <motion.div
               className="boxes"
-              initial={{ x: -650 }}
+              initial={{ y: -200 }}
               viewport={{ once: true }}
-              whileInView={{ x: 0 }}
+              whileInView={{ y: 0 }}
               transition={{ duration: 1 }}
             >
               <img src={Img2} className="img2" />
@@ -94,7 +98,7 @@ const Page = () => {
             </div>
             <motion.div
               className="boxes"
-              initial={{ y: 400 }}
+              initial={{ y: 200 }}
               viewport={{ once: true }}
               whileInView={{ y: 0 }}
               transition={{ duration: 1 }}
@@ -105,7 +109,7 @@ const Page = () => {
           <div className="grid">
             <motion.div
               className="boxes"
-              initial={{ y: -400 }}
+              initial={{ y: -200 }}
               viewport={{ once: true }}
               whileInView={{ y: 0 }}
               transition={{ duration: 1 }}
@@ -134,9 +138,9 @@ const Page = () => {
             </div>
             <motion.div
               className="boxes"
-              initial={{ x: 650 }}
+              initial={{ y: 200 }}
               viewport={{ once: true }}
-              whileInView={{ x: 0 }}
+              whileInView={{ y: 0 }}
               transition={{ duration: 1 }}
             >
               <img src={Img5} className="img5" />
@@ -145,9 +149,9 @@ const Page = () => {
           <div className="grid">
             <motion.div
               className="boxes"
-              initial={{ x: -650 }}
+              initial={{ y: -200 }}
               viewport={{ once: true }}
-              whileInView={{ x: 0 }}
+              whileInView={{ y: 0 }}
               transition={{ duration: 1 }}
             >
               <img src={Img6} className="img4" />
@@ -179,7 +183,7 @@ const Page = () => {
             </div>
             <motion.div
               className="boxes"
-              initial={{ y: 400 }}
+              initial={{ y: 200 }}
               viewport={{ once: true }}
               whileInView={{ y: 0 }}
               transition={{ duration: 1 }}
@@ -190,7 +194,7 @@ const Page = () => {
           <div className="grid">
             <motion.div
               className="boxes"
-              initial={{ y: -400 }}
+              initial={{ y: -200 }}
               viewport={{ once: true }}
               whileInView={{ y: 0 }}
               transition={{ duration: 1 }}
@@ -222,9 +226,9 @@ const Page = () => {
             </div>
             <motion.div
               className="boxes"
-              initial={{ x: 650 }}
+              initial={{ y: -200 }}
               viewport={{ once: true }}
-              whileInView={{ x: 0 }}
+              whileInView={{ y: 0 }}
               transition={{ duration: 1 }}
             >
               <img src={Img9} className="img5" />
@@ -233,9 +237,9 @@ const Page = () => {
           <div className="grid">
             <motion.div
               className="boxes"
-              initial={{ x: -650 }}
+              initial={{ y: -200 }}
               viewport={{ once: true }}
-              whileInView={{ x: 0 }}
+              whileInView={{ y: 0 }}
               transition={{ duration: 1 }}
             >
               <img src={Img10} className="img4" />
@@ -268,7 +272,7 @@ const Page = () => {
             </div>
             <motion.div
               className="boxes"
-              initial={{ y: 400 }}
+              initial={{ y: 200 }}
               viewport={{ once: true }}
               whileInView={{ y: 0 }}
               transition={{ duration: 1 }}

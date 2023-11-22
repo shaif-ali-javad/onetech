@@ -29,7 +29,7 @@ import Img from "./img-component/img";
 // import animation10 from "../assets/10.json";
 // import animation11 from "../assets/11.json";
 // import animation12 from "../assets/12.json";
-import { useScroll, transform } from "framer-motion";
+// import { useScroll, transform } from "framer-motion";
 
 // const targetRef = (useRef < HTMLDivElement) | (null > null);
 // const { scrollYProgress } = useScroll({

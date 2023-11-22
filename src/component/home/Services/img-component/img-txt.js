@@ -1,6 +1,10 @@
 import "./img.css";
+
 import Text from "./img-typewriter";
 import "animate.css";
+
+import animation0 from "../../assets/lt62Jujd6s.json";
+import Lottie from "lottie-react";
 
 const Img_txt = () => (
   <div className="img-main-over">
@@ -12,6 +16,9 @@ const Img_txt = () => (
           </div>
           <div className="content-main-type">
             <Text />
+          </div>
+          <div className="img-main-1-container">
+            <Lottie animationData={animation0} className="img-main-1" />
           </div>
         </div>
       </div>

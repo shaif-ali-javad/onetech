@@ -37,19 +37,19 @@
   .services1 .holder .container0 {
     position: relative;
     grid-template-columns: repeat(1, 1fr);
-    margin: 0 0 1500px;
+    margin: 0 0 400px;
   }
 }
 
 @media screen and (max-width: 500px) {
   .services1 .holder .container0 {
-    margin: 0 0 1600px;
+    margin: 0 0 350px;
   }
 }
 
 @media screen and (max-width: 450px) {
   .services1 .holder .container0 {
-    margin: 0 0 1700px;
+    margin: 0 0 300px;
   }
 }
 
