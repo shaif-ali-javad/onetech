@@ -1,27 +1,47 @@
-import React, { Component } from "react";
+import React, { Component, useRef } from "react";
 import "./services.css";
 
 import Img_txt from "./img-component/img-txt";
 import Img from "./img-component/img";
-import Img0 from "./img-component/img0";
-import Img1 from "./img-component/img1";
-import Img2 from "./img-component/img2";
-import Img3 from "./img-component/img3";
-import Img4 from "./img-component/img4";
-import Img5 from "./img-component/img5";
-import Img6 from "./img-component/img6";
-import Img7 from "./img-component/img7";
-import Img8 from "./img-component/img8";
-import Img9 from "./img-component/img9";
-import Img10 from "./img-component/img10";
-import Img11 from "./img-component/img11";
+// import Img0 from "./img-component/img0";
+// import Img1 from "./img-component/img1";
+// import Img2 from "./img-component/img2";
+// import Img3 from "./img-component/img3";
+// import Img4 from "./img-component/img4";
+// import Img5 from "./img-component/img5";
+// import Img6 from "./img-component/img6";
+// import Img7 from "./img-component/img7";
+// import Img8 from "./img-component/img8";
+// import Img9 from "./img-component/img9";
+// import Img10 from "./img-component/img10";
+// import Img11 from "./img-component/img11";
 
+// import Lottie, { LottieRef } from "lottie-react";
+// import animation1 from "../assets/1.json";
+// import animation2 from "../assets/2.json";
+// import animation3 from "../assets/3.json";
+// import animation4 from "../assets/4.json";
+// import animation5 from "../assets/5.json";
+// import animation6 from "../assets/6.json";
+// import animation7 from "../assets/7.json";
+// import animation8 from "../assets/8.json";
+// import animation9 from "../assets/9.json";
+// import animation10 from "../assets/10.json";
+// import animation11 from "../assets/11.json";
+// import animation12 from "../assets/12.json";
+import { useScroll, transform } from "framer-motion";
+
+// const targetRef = (useRef < HTMLDivElement) | (null > null);
+// const { scrollYProgress } = useScroll({
+//   target: targetRef,
+//   offset: ["start end", "end end"],
+// });
 export class Services extends Component {
   render() {
     return (
       <>
-        <Img />
-        <Img_txt />
+        {/* <Img_txt /> */}
+        {/* <Img /> */}
         <div className="line">
           <h1 className="text-red-500">Value Added Range of ICT Solutions</h1>
           <p className="">
@@ -30,28 +50,40 @@ export class Services extends Component {
             <br /> today’s business development challenges
           </p>
         </div>
-        <Img0 />
+        {/* <Img0 /> */}
         <div className="text0">
-          <h3 className="text1 h1 hidden">Office Automation</h3>
-          <p className="text1 hidden">
-            Maximize office productivity and streamline workflow with an
-            efficient fleet of office equipment including Colour & B/W
-            Multifunctional Printers.
-          </p>
+          <div className="text-1">
+            <h3 className="text1 h1">Office Automation</h3>
+            <p className="text1">
+              Maximize office productivity and streamline workflow with an
+              efficient fleet of office equipment including Colour & B/W
+              Multifunctional Printers.
+            </p>
+          </div>
           <div className="action text-center">
             <p>
-              <a
+              {/* <a
                 className="btn h1 hidden"
                 href="services/Office Automation.html"
               >
                 m o r e
-              </a>
+              </a> */}
             </p>
           </div>
+          {/* <div className="animate1">
+            <Lottie
+              onComplete={() => {
+                animate.current;
+              }}
+              lottieRef={animate}
+              animationData={animation1}
+              className="img-2"
+            />
+          </div> */}
         </div>
-        <Img1 />
+        {/* <Img1 /> */}
         <div className="text3">
-          <div className="text-center text4">
+          <div className="text-center text4 text-3">
             <h3 className="text-white">Software Solutions</h3>
             <p>
               Enabling Digital Transformation of Organizations for enhanced
@@ -59,20 +91,23 @@ export class Services extends Component {
               tangible business outcomes.
             </p>
             <div className="action">
-              <p>
+              {/* <p>
                 <a
                   className="btn text-white"
                   href="services/Software Solutions.html"
                 >
                   m o r e
                 </a>
-              </p>
+              </p> */}
             </div>
           </div>
+          {/* <div className="animate1">
+            <Lottie animationData={animation2} className="img-2" />
+          </div> */}
         </div>
-        <Img2 />
+        {/* <Img2 /> */}
         <div className="text3">
-          <div className="text-center center text4">
+          <div className="text-center center text4 text-4">
             <h3 className="text-white">AV Solutions</h3>
             <p>
               Your System Integrator & Technology Partner offers rich experience
@@ -80,17 +115,20 @@ export class Services extends Component {
               Management.
             </p>
             <div className="action">
-              <p>
+              {/* <p>
                 <a className="btn text-white" href="services/AV Solutions.html">
                   m o r e
                 </a>
-              </p>
+              </p> */}
             </div>
           </div>
+          {/* <div className="animate1">
+            <Lottie animationData={animation3} className="img-4" />
+          </div> */}
         </div>
-        <Img3 />
+        {/* <Img3 /> */}
         <div className="text3">
-          <div className="text-center center text4">
+          <div className="text-center center text4 text-4">
             <h3 className="text-white">Structured Cabling</h3>
             <p>
               Maximize office productivity and streamline workflow with an
@@ -98,20 +136,23 @@ export class Services extends Component {
               Multifunctional Printers.
             </p>
             <div className="action">
-              <p>
+              {/* <p>
                 <a
                   className="btn text-white"
                   href="services/Structured Cabling.html"
                 >
                   m o r e
                 </a>
-              </p>
+              </p> */}
             </div>
           </div>
+          {/* <div className="animate1">
+            <Lottie animationData={animation4} className="img-2" />
+          </div> */}
         </div>
-        <Img4 />
+        {/* <Img4 /> */}
         <div className="text3">
-          <div className="text-center center text4">
+          <div className="text-center center text4 text-4">
             <h3 className="text-white">ELV Systems</h3>
             <p>
               ELV or Extra Low Voltage systems is a huge industry in itself
@@ -119,17 +160,20 @@ export class Services extends Component {
               projects related to ELV Systems successfully..
             </p>
             <div className="action">
-              <p>
+              {/* <p>
                 <a className="btn text-white" href="services/ELV Systems.html">
                   m o r e
                 </a>
-              </p>
+              </p> */}
             </div>
           </div>
+          {/* <div className="animate1">
+            <Lottie animationData={animation5} className="img-5" />
+          </div> */}
         </div>
-        <Img5 />
+        {/* <Img5 /> */}
         <div className="text3">
-          <div className="text-center center text4">
+          <div className="text-center center text4 text-4">
             <h3 className="text-white">
               Backup and Disaster Recovery Management
             </h3>
@@ -141,20 +185,23 @@ export class Services extends Component {
               Disaster Management Systems.
             </p>
             <div className="action">
-              <p>
+              {/* <p>
                 <a
                   className="btn text-white"
                   href="services/Backup and Disaster Recovery Management.html"
                 >
                   m o r e
                 </a>
-              </p>
+              </p> */}
             </div>
           </div>
+          {/* <div className="animate1">
+            <Lottie animationData={animation6} className="img-6" />
+          </div> */}
         </div>
-        <Img6 />
+        {/* <Img6 /> */}
         <div className="text3">
-          <div className="text-center center text4">
+          <div className="text-center center text4 text-4">
             <h3 className="text-white">Home Automation</h3>
             <p>
               As the world is continuously progressing and working on making
@@ -166,20 +213,23 @@ export class Services extends Component {
               Audio/Visual Control and Satellite Connection.
             </p>
             <div className="action">
-              <p>
+              {/* <p>
                 <a
                   className="btn text-white"
                   href="services/Home Automation.html"
                 >
                   m o r e
                 </a>
-              </p>
+              </p> */}
             </div>
           </div>
+          {/* <div className="animate1">
+            <Lottie animationData={animation7} className="img-7" />
+          </div> */}
         </div>
-        <Img7 />
+        {/* <Img7 /> */}
         <div className="text3">
-          <div className="text-center center text4">
+          <div className="text-center center text4 text-4">
             <h3 className="text-white">Cloud Services</h3>
             <p>
               Cloud Services is something that is continuously growing every
@@ -190,20 +240,23 @@ export class Services extends Component {
               Subscription ) Onetech has all the solutions for you.
             </p>
             <div className="action">
-              <p>
+              {/* <p>
                 <a
                   className="btn text-white"
                   href="services/Cloud Services.html"
                 >
                   m o r e
                 </a>
-              </p>
+              </p> */}
             </div>
           </div>
+          {/* <div className="animate1">
+            <Lottie animationData={animation8} className="img-5" />
+          </div> */}
         </div>
-        <Img8 />
+        {/* <Img8 /> */}
         <div className="text3">
-          <div className="text-center center text4">
+          <div className="text-center center text4 text-4">
             <h3 className="text-white">Maintenance & Support</h3>
             <p>
               Onetech has a competitive and qualified team of technicians to
@@ -215,20 +268,23 @@ export class Services extends Component {
               monthly basis.
             </p>
             <div className="action">
-              <p>
+              {/* <p>
                 <a
                   className="btn text-white"
                   href="services/Maintenance & Support.html"
                 >
                   m o r e
                 </a>
-              </p>
+              </p> */}
             </div>
           </div>
+          {/* <div className="animate1">
+            <Lottie animationData={animation9} className="img-5" />
+          </div> */}
         </div>
-        <Img9 />
+        {/* <Img9 /> */}
         <div className="text3">
-          <div className="text-center center text4">
+          <div className="text-center center text4 text-4">
             <h3 className="text-white">AI Based Solutions</h3>
             <p>
               AI stands for Artificial Intelligence it is the basis of almost
@@ -237,18 +293,21 @@ export class Services extends Component {
               projects.
             </p>
             <div className="action">
-              <p>
+              {/* <p>
                 <a
                   className="btn text-white"
                   href="services/AI Based Solutions.html"
                 >
                   m o r e
                 </a>
-              </p>
+              </p> */}
             </div>
           </div>
+          {/* <div className="animate1">
+            <Lottie animationData={animation10} className="img-5" />
+          </div> */}
         </div>
-        <Img10 />
+        {/* <Img10 /> */}
         <div className="text3">
           <div className="text-center center text4">
             <h3 className="text-white">Data Centre Solutions</h3>
@@ -262,18 +321,21 @@ export class Services extends Component {
               Data Center services right from designing and commissioning.
             </p>
             <div className="action">
-              <p>
+              {/* <p>
                 <a
                   className="btn text-white"
                   href="services/Data Centre Solutions.html"
                 >
                   m o r e
                 </a>
-              </p>
+              </p> */}
             </div>
           </div>
+          {/* <div className="animate1">
+            <Lottie animationData={animation11} className="img-5" />
+          </div> */}
         </div>
-        <Img11 />
+        {/* <Img11 /> */}
         <div className="text3">
           <div className="text-center center text4">
             <h3 className="text-white">Microsoft Azure / Office 365</h3>
@@ -285,16 +347,19 @@ export class Services extends Component {
               are helping in making the processes easier
             </p>
             <div className="action">
-              <p>
+              {/* <p>
                 <a
                   className="btn text-white"
                   href="services/Microsoft Azure  Office 365.html"
                 >
                   m o r e
                 </a>
-              </p>
+              </p> */}
             </div>
           </div>
+          {/* <div className="animate1">
+            <Lottie animationData={animation12} className="img-5" />
+          </div> */}
         </div>
       </>
     );

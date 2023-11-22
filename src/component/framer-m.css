@@ -1,0 +1,40 @@
+.box-h {
+  margin: 100px auto;
+  text-align: center;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: auto;
+  margin: 150px 0;
+  max-width: 99;
+  /* max-height: 100vw; */
+  overflow: hidden;
+}
+.boxes {
+  margin: 20px;
+  padding: 50px;
+  color: white;
+}
+.office-automation {
+  margin: 20px auto;
+  transform: translateY(30%);
+  padding: 50px;
+}
+.boxes img {
+  width: 100%;
+  color: white;
+  border-radius: 200px;
+}
+.boxes .img1 {
+  width: 100%;
+  float: right;
+}
+.boxes .img3 {
+  width: 100%;
+  float: right;
+}
+.boxes .img5 {
+  width: 100%;
+  float: right;
+}

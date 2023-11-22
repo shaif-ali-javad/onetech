@@ -3,27 +3,58 @@
 /* ------------------------ */
 
 .text0 {
+  display: flex;
   color: #777;
   background-color: white;
   text-align: center;
-  padding: 50px 80px 30px;
   text-align: justify;
+  overflow-x: hidden;
+  padding: 100px 50px 50px;
 }
-.text0 {
+.text1 {
   text-align: center;
+  /* transform: translateY(200%); */
+}
+.animate1 .img-2 {
+  width: 50vw;
+}
+.animate1 .img-4 {
+  width: 50vw;
+  margin: -100px;
+}
+.animate1 .img-5 {
+  width: 35vw;
+  margin: 0px;
+}
+.animate1 .img-6 {
+  width: 50vw;
+  margin: -60px;
+}
+.animate1 .img-7 {
+  width: 50vw;
+  margin: 50px 0;
 }
 .text2 {
   font-size: 25px;
 }
 .text3 {
+  display: flex;
   position: relative;
+  background-color: #282e34;
+  overflow: hidden;
+}
+.text-3 {
+  transform: translateY(30%);
 }
 .text4 {
   color: #ddd;
-  background-color: #282e34;
   text-align: center;
   padding: 50px 80px 40px;
   text-align: justify;
+  overflow: hidden;
+}
+.text-4 {
+  transform: translateY(30%);
 }
 .text5 {
   font-size: 25px;
@@ -68,7 +99,7 @@
   padding: 18px;
   background-color: #11111184;
   border: 1px solid #fff;
-  margin: auto;
+  /* margin: auto; */
 }
 
 h3 {
@@ -83,7 +114,7 @@ h3 {
 }
 
 /* ------------------------ */
-/* ------- services --------- */
+/* ------- logo --------- */
 /* ------------------------ */
 .logo-effect {
   margin-top: 150px;
