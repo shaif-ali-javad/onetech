@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./partner.css";
+import LogoSlider from "./logo-carousel";
 
 export class Partners extends Component {
   render() {
@@ -13,7 +14,7 @@ export class Partners extends Component {
             <br /> partnerships with key global players.
           </p>
         </div>
-
+        <LogoSlider />
         <div class="text-a">
           <p>
             Onetech Technologies is UAE’s leading ICT Solutions Company offering
