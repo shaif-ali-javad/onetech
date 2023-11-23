@@ -20,6 +20,7 @@ class Navbar extends Component {
               id="navbar"
               className={this.state.clicked ? "#navbar active1" : "#navbar"}
             >
+              <div className="backdrop"></div>
               <li>
                 <NavLink className="link" to="/">
                   HOME
