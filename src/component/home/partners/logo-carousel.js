@@ -22,7 +22,7 @@ export default class LogoCarousel extends Component {
       dots: true,
       infinite: true,
       speed: 2000,
-      slidesToShow: 3,
+      slidesToShow: 2,
       slidesToScroll: 1,
       autoplay: true,
       autoplaySpeed: 2000,
