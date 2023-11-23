@@ -41,7 +41,7 @@ nav {
   text-decoration: none;
   font-size: 1.3rem;
   font-weight: 600;
-  color: #fff;
+  color: #14248e;
   transition: 0.3s ease-in-out;
 }
 
@@ -60,7 +60,7 @@ nav {
 }
 
 #mobile i {
-  color: #fff;
+  color: #14248e;
   margin: 21.3px 0;
 }
 @media screen and (max-width: 896px) {
@@ -78,7 +78,7 @@ nav {
     right: -300px;
     width: 250px;
     height: 100vh;
-    background-color: #2a3239;
+    background-color: #000a24;
     box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
     padding: 40px 0 0 10px;
     transition: 0.3s ease-in-out;
