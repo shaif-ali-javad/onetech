@@ -30,37 +30,37 @@ export default class LogoCarousel extends Component {
     };
     return (
       <Slider {...settings} className="logo-carousel">
-        <div>
+        <div className="carousel-logo">
           <img src={logo1} />
         </div>
-        <div>
+        <div className="carousel-logo">
           <img src={logo2} />
         </div>
-        <div>
+        <div className="carousel-logo">
           <img src={logo3} />
         </div>
-        <div>
+        <div className="carousel-logo">
           <img src={logo4} />
         </div>
-        <div>
+        <div className="carousel-logo">
           <img src={logo5} />
         </div>
-        <div>
+        <div className="carousel-logo">
           <img src={logo6} />
         </div>
-        <div>
+        <div className="carousel-logo">
           <img src={logo7} />
         </div>
-        <div>
+        <div className="carousel-logo">
           <img src={logo8} />
         </div>
-        <div>
+        <div className="carousel-logo">
           <img src={logo9} />
         </div>
-        <div>
+        <div className="carousel-logo">
           <img src={logo10} />
         </div>
-        <div>
+        <div className="carousel-logo">
           <img src={logo11} />
         </div>
       </Slider>

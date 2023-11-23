@@ -18,7 +18,7 @@
 
 .contact-container {
   position: relative;
-  color: #011032;
+  color: #ffffff;
   margin-top: 10rem;
 }
 
@@ -58,7 +58,7 @@
 }
 
 .contact-container .contact .contact-content p strong {
-  color: #ef4323;
+  color: #ff4c2c;
   line-height: 70px;
   font-size: 23px;
 }

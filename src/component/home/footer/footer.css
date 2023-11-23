@@ -1,14 +1,15 @@
 .style0 {
-  background-color: #1c2331;
+  border-top: 1px solid #010d4a;
 }
-.style1 {
-  background-color: #7c4dff;
-}
+/* .style1 {
+  border-top: 1px solid #04104b;
+  border-bottom: 1px solid #04104c;
+} */
 .style2 {
   width: 60px;
-  background-color: #7c4dff;
+  /* background-color: #0c0522; */
   height: 2px;
 }
-.style3 {
-  background-color: rgba(0, 0, 0, 0.2);
-}
+/* .style3 {
+  background-color: rgba(8, 5, 39, 0.2);
+} */

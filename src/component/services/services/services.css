@@ -2,7 +2,7 @@
   text-align: center;
   position: relative;
   margin-top: 40px;
-  color: #011032;
+  color: #ffffff;
   margin-bottom: 50px;
   margin-top: 60px;
 }
@@ -27,7 +27,7 @@
 .box h1 {
   position: relative;
   font-size: 2rem;
-  color: #011032df;
+  color: #ffffffdf;
   padding-bottom: 1rem;
 }
 
@@ -46,5 +46,5 @@
 .box p {
   position: relative;
   font-size: 19px;
-  color: #011032c9;
+  color: #ffffffc9;
 }

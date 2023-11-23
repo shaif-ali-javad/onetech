@@ -47,7 +47,7 @@
   transform: translateY(30%);
 }
 .text4 {
-  color: #ddd;
+  color: #ffffff;
   text-align: center;
   padding: 50px 80px 40px;
   text-align: justify;
@@ -65,7 +65,7 @@
 /* ------- services heading --------- */
 /* ------------------------ */
 .line {
-  color: #011032;
+  color: #ffffff;
   margin-bottom: 50px;
   margin-top: 60px;
   position: relative;
@@ -106,7 +106,7 @@ h3 {
   letter-spacing: 5px;
   text-transform: uppercase;
   font: 20px "Lato", sans-serif;
-  color: #111;
+  color: #ffffff;
 }
 
 /* Turn off parallax scrolling for tablets and phones */

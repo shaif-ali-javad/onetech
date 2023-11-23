@@ -14,7 +14,7 @@ export class About extends Component {
           </div>
           <div class="text row ml-1">
             <div class="text-center col-12 col-lg-5">
-              <img class="img-fluid" src="image/About-Us-400x324.jpg" alt="" />
+              <img class="img-fluid" src="image/About-Us-400x324.png" alt="" />
             </div>
             <div class="col-12 col-lg-7">
               <p>

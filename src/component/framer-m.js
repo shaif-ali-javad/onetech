@@ -22,7 +22,7 @@ import Img11 from "./home/Services/image/parelall-scroll/11(1).png";
 
 import { motion, useScroll, useTransform } from "framer-motion";
 
-const Page = () => {
+const ServicesPage = () => {
   return (
     <>
       <div className="App">
@@ -244,7 +244,7 @@ const Page = () => {
             >
               <img src={Img10} className="img4" />
             </motion.div>
-            <div className="office-automation">
+            <div className="Data-Centre-Solutions">
               <h3 className="">Data Centre Solutions</h3>
               <p>
                 Data Center Solution is a combined form of software, hardware,
@@ -285,4 +285,4 @@ const Page = () => {
     </>
   );
 };
-export default Page;
+export default ServicesPage;

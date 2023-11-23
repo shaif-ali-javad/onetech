@@ -6,13 +6,13 @@ import Services2 from "./home/services2/services";
 import Partners from "./home/partners/partners";
 import Footer from "./home/footer/footer";
 import Web from "./home/web-services/web-s";
-import Page from "./framer-m";
+import ServicesPage from "./framer-m";
 
 function Home() {
   return (
     <div>
       <Navbar />
-      <Page />
+      <ServicesPage />
       {/* <Services /> */}
       <Web />
       <Services1 />

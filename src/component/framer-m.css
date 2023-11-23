@@ -10,7 +10,7 @@
   margin: 100px auto;
   gap: 1rem;
   /* margin: 11rem 0; */
-  max-width: 99;
+  max-width: 99vw;
   /* max-height: 100vw; */
   overflow: hidden;
   height: 100%;
@@ -21,6 +21,11 @@
   color: white;
 }
 .office-automation {
+  margin: 20px auto;
+  transform: translateY(30%);
+  padding: 0 50px;
+}
+.Data-Centre-Solutions {
   margin: 20px auto;
   transform: translateY(30%);
   padding: 0 50px;
@@ -54,3 +59,61 @@
     margin-top: 90px;
   }
 }
+@media screen and (max-width: 1045px) {
+  .Data-Centre-Solutions {
+    margin: 20px auto;
+    transform: translateY(30%);
+    height: 100px;
+  }
+}
+@media screen and (max-width: 591px) {
+  .Data-Centre-Solutions {
+    margin: 20px auto;
+    transform: translateY(30%);
+    height: 100%;
+  }
+}
+@media screen and (max-width: 520px) {
+  .Data-Centre-Solutions {
+    margin: 20px auto;
+    transform: translateY(30%);
+    height: 400px;
+  }
+}
+/* 
+@media screen and (max-width: 491px) {
+  .Data-Centre-Solutions {
+    margin: 20px auto;
+    transform: translateY(30%);
+    padding: 0 50px 30px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .Data-Centre-Solutions {
+    margin: 20px auto;
+    transform: translateY(30%);
+    padding: 0 50px 40px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .Data-Centre-Solutions {
+    margin: 20px auto;
+    transform: translateY(30%);
+    padding: 0 50px 30px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .Data-Centre-Solutions {
+    margin: 20px auto;
+    transform: translateY(30%);
+    padding: 0 50px 40px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .Data-Centre-Solutions {
+    margin: 20px auto;
+    transform: translateY(30%);
+    padding: 0 50px 200px;
+  }
+} */

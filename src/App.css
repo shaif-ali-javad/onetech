@@ -5,9 +5,10 @@
   scroll-behavior: smooth;
 }
 body {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(5, 7, 36);
   max-width: 100vw;
   overflow-x: hidden;
+  color: white;
 }
 .app {
   font-family: sans-serif;
