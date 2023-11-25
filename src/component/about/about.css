@@ -1,6 +1,6 @@
 .course {
   margin: 3rem 0 0;
-  color: #ffffff;
+  color: #fff;
 }
 
 .course .heading {
@@ -20,7 +20,7 @@
   position: relative;
   width: 100%;
   font-size: 20px;
-  color: #ffffff;
+  color: #fff;
 }
 
 .course img {
@@ -35,7 +35,7 @@
 .mission,
 .vision {
   position: relative;
-  color: #ffffff;
+  color: #fff;
   padding-bottom: 10px;
   margin-left: 1rem;
 }

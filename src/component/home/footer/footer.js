@@ -4,7 +4,7 @@ export class Footer extends Component {
   render() {
     return (
       <div class="">
-        <footer class="text-lg-left text-white style0">
+        <footer class="text-lg-left  style0">
           <section class="d-flex justify-content-between p-4 style1">
             <div class="text-left me-5">
               <span>Get connected with us on social networks:</span>
@@ -37,62 +37,62 @@ export class Footer extends Component {
             <hr class="mb-4 mt-0 d-inline-block mx-auto style2" />
             <div class="row">
               <p class="col-md-6 col-lg-4">
-                <a href="#!" class="text-white">
+                <a href="#!" class="service-link">
                   Office Automation
                 </a>
               </p>
               <p class="col-md-6 col-lg-4">
-                <a href="#!" class="text-white">
+                <a href="#!" class="service-link">
                   Software Solutions
                 </a>
               </p>
               <p class="col-md-6 col-lg-4">
-                <a href="#!" class="text-white">
+                <a href="#!" class="service-link">
                   AV Solutions
                 </a>
               </p>
               <p class="col-md-6 col-lg-4">
-                <a href="#!" class="text-white">
+                <a href="#!" class="service-link">
                   Structured Cabling
                 </a>
               </p>
               <p class="col-md-6 col-lg-4">
-                <a href="#!" class="text-white">
+                <a href="#!" class="service-link">
                   ELV Systems
                 </a>
               </p>
               <p class="col-md-6 col-lg-4">
-                <a href="#!" class="text-white">
+                <a href="#!" class="service-link">
                   Home Automation
                 </a>
               </p>
               <p class="col-md-6 col-lg-4">
-                <a href="#!" class="text-white">
+                <a href="#!" class="service-link">
                   Cloud Services
                 </a>
               </p>
               <p class="col-md-6 col-lg-4">
-                <a href="#!" class="text-white">
+                <a href="#!" class="service-link">
                   Maintenance & Support
                 </a>
               </p>
               <p class="col-md-6 col-lg-4">
-                <a href="#!" class="text-white">
+                <a href="#!" class="service-link">
                   AI Based Solutions
                 </a>
               </p>
               <p class="col-md-6 col-lg-4">
-                <a href="#!" class="text-white">
+                <a href="#!" class="service-link">
                   Data Centre Solutions
                 </a>
               </p>
               <p class="col-md-6 col-lg-4">
-                <a href="#!" class="text-white">
+                <a href="#!" class="service-link">
                   Microsoft Azure / Office 365
                 </a>
               </p>
               <p class="col-md-6 col-lg-4">
-                <a href="#!" class="text-white">
+                <a href="#!" class="service-link">
                   Backup and Disaster Recovery Management
                 </a>
               </p>
@@ -122,8 +122,8 @@ export class Footer extends Component {
 
           <div class="text-center p-3 style3">
             © 1990 Copyright:
-            <a class="text-white" href="#!">
-              onetechuae.com
+            <a class="service-link" href="#!">
+              onetech
             </a>
           </div>
         </footer>

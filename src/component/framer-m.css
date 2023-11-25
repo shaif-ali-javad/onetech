@@ -18,7 +18,7 @@
 .boxes {
   margin: 0 20px;
   padding: 50px;
-  color: white;
+  color: #fff;
 }
 .office-automation {
   margin: 20px auto;
@@ -32,7 +32,7 @@
 }
 .boxes img {
   width: 100%;
-  color: white;
+  color: #fff;
   border-radius: 200px;
 }
 

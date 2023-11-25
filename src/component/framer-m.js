@@ -30,6 +30,14 @@ const ServicesPage = () => {
           <Img_txt />
         </motion.h1>
         <div className="grid-container">
+          <div className="line">
+            <h1 className="text-red-500">Value Added Range of ICT Solutions</h1>
+            <p className="">
+              Providing you best-in-class Communication & Technology Solutions
+              to meet
+              <br /> today’s business development challenges
+            </p>
+          </div>
           <div className="grid">
             <motion.div
               className="boxes"
