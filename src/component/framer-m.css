@@ -28,36 +28,33 @@
 }
 
 @media screen and (max-width: 1045px) {
-  .Data-Centre-Solutions {
-    margin: auto;
-    height: 100px;
-  }
 }
 
-@media screen and (max-width: 810px) {
-  .grid-container {
-    margin-top: -200px;
-  }
-  .grid {
-    grid-template-columns: repeat(1, 1fr);
-  }
-  .office-automation {
-    grid-area: "txt";
-  }
+@media screen and (max-width: 700px) {
   .boxes {
-    grid-area: "img";
-  }
-  .img1 {
-    margin-top: 50px;
-  }
-  .img3 {
-    margin-top: 50px;
-  }
-  .img5 {
-    margin-top: 90px;
+    color: #fff;
+    height: 200px;
+    overflow: hidden;
   }
 }
 
+@media screen and (max-width: 420px) {
+  .boxes {
+    color: #fff;
+    height: 150px;
+    overflow: hidden;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .boxes {
+    color: #fff;
+    height: 100px;
+    overflow: hidden;
+  }
+}
+
+/* 
 @media screen and (max-width: 591px) {
   .Data-Centre-Solutions {
     margin: 20px auto;
@@ -71,7 +68,8 @@
     transform: translateY(30%);
     height: 400px;
   }
-}
+} */
+
 /* 
 @media screen and (max-width: 491px) {
   .Data-Centre-Solutions {
