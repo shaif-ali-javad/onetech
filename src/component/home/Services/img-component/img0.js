@@ -1,23 +1,34 @@
-import { Parallax } from "react-parallax";
+import { useRef } from "react";
 import "./img.css";
 import name from "../image/parelall-scroll/0(1).jpg";
-import Lottie from "lottie-react";
-// import animation0 from "../../assets/animation - ";
-// import TrackVisibility from "react-on-screen";
-const Img0 = () => (
-  // <TrackVisibility>
-  //   {({ isVisible }) =>
-  //     isVisible && (
-  <Parallax className="img" bgImage={name} bgImageAlt="the cat" strength={200}>
-    <div className="img-container">
-      {/* <div className="content">
-      <span className="img-txt">Office Automation</span>
-    </div> */}
+import { motion, useTransform, useScroll } from "framer-motion";
+
+const Img0 = () => {
+  return (
+    <div className="bg-neutral-800">
+      <HorizontalScrollCarousel />
     </div>
-  </Parallax>
-);
-//   }
-// </TrackVisibility>
-// );
+  );
+};
 
 export default Img0;
+
+const HorizontalScrollCarousel = () => {
+  const targetRef = useRef(null);
+  const { scrollYProgress } = useScroll({
+    target: targetRef,
+    offset: ["start end", "end start"],
+  });
+
+  const x = useTransform(scrollYProgress, [0, 1], ["-20%", "10%"]);
+
+  return (
+    <section ref={targetRef} className="relative h-[300vh] bg-neutral-900">
+      <div className="sticky top-0 flex h-screen items-center overflow-hidden">
+        <motion.div style={{ y: x }} className="flex">
+          <img src={name} alt="" width={700} />
+        </motion.div>
+      </div>
+    </section>
+  );
+};

@@ -1,9 +1,9 @@
 import "./img.css";
-import name from "../image/parelall-scroll/8(1).jpg";
+import name from "../image/parelall-scroll/12(1).jpg";
 import { useRef } from "react";
 import { motion, useTransform, useScroll } from "framer-motion";
 
-const Img8 = () => {
+const Img12 = () => {
   return (
     <div className="bg-neutral-800">
       <HorizontalScrollCarousel />
@@ -11,7 +11,7 @@ const Img8 = () => {
   );
 };
 
-export default Img8;
+export default Img12;
 
 const HorizontalScrollCarousel = () => {
   const targetRef = useRef(null);

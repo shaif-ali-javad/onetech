@@ -7,22 +7,42 @@ import "./framer-m.css";
 
 import Img_txt from "./home/Services/img-component/img-txt";
 
-import Img0 from "./home/Services/image/parelall-scroll/0(1).jpg";
-import Img1 from "./home/Services/image/parelall-scroll/1(1).jpg";
-import Img2 from "./home/Services/image/parelall-scroll/2(1).jpg";
-import Img3 from "./home/Services/image/parelall-scroll/3(1).jpg";
-import Img4 from "./home/Services/image/parelall-scroll/4.jpg";
-import Img5 from "./home/Services/image/parelall-scroll/5(1).jpg";
-import Img6 from "./home/Services/image/parelall-scroll/6(1).jpg";
-import Img7 from "./home/Services/image/parelall-scroll/7(1).jpg";
-import Img8 from "./home/Services/image/parelall-scroll/8(1).jpg";
-import Img9 from "./home/Services/image/parelall-scroll/9(1).jpg";
-import Img10 from "./home/Services/image/parelall-scroll/10(1).jpg";
-import Img11 from "./home/Services/image/parelall-scroll/11(1).png";
+import Img0 from "./home/Services/img-component/img0";
+import Img1 from "./home/Services/img-component/img1";
+import Img2 from "./home/Services/img-component/img2";
+import Img3 from "./home/Services/img-component/img3";
+import Img4 from "./home/Services/img-component/img4";
+import Img5 from "./home/Services/img-component/img5";
+import Img6 from "./home/Services/img-component/img6";
+import Img7 from "./home/Services/img-component/img7";
+import Img8 from "./home/Services/img-component/img8";
+import Img9 from "./home/Services/img-component/img9";
+import Img10 from "./home/Services/img-component/img10";
+import Img11 from "./home/Services/img-component/img11";
+import Img12 from "./home/Services/img-component/img12";
 
-import { motion, useScroll, useTransform } from "framer-motion";
+// import Img0 from "./home/Services/image/parelall-scroll/0(1).jpg";
+// import Img1 from "./home/Services/image/parelall-scroll/1(1).jpg";
+// import Img2 from "./home/Services/image/parelall-scroll/2(1).jpg";
+// import Img3 from "./home/Services/image/parelall-scroll/3(1).jpg";
+// import Img4 from "./home/Services/image/parelall-scroll/4.jpg";
+// import Img5 from "./home/Services/image/parelall-scroll/5(1).jpg";
+// import Img6 from "./home/Services/image/parelall-scroll/6(1).jpg";
+// import Img7 from "./home/Services/image/parelall-scroll/7(1).jpg";
+// import Img8 from "./home/Services/image/parelall-scroll/8(1).jpg";
+// import Img9 from "./home/Services/image/parelall-scroll/9(1).jpg";
+// import Img10 from "./home/Services/image/parelall-scroll/10(1).jpg";
+// import Img11 from "./home/Services/image/parelall-scroll/11(1).png";
+// import Img12 from "./home/Services/image/parelall-scroll/12(1).jpg";
 
-const ServicesPage = () => {
+import { motion, useTransform } from "framer-motion";
+function ServicesPage() {
+  // const ref = useRef(null);
+  // const { scrollYProgress } = useScroll(() => {
+  //   target: ref;
+  //   offset: ["start start", "end start"];
+  // });
+  // const backgroundY = useTransform(scrollYProgress, [0, 1], ["0%", "100%"]);
   return (
     <>
       <div className="App">
@@ -39,15 +59,16 @@ const ServicesPage = () => {
             </p>
           </div>
           <div className="grid">
-            <motion.div
+            <div
               className="boxes"
-              initial={{ y: -200 }}
-              viewport={{ once: true }}
-              whileInView={{ y: 0 }}
-              transition={{ duration: 1 }}
+              // style={{ y: backgroundY }}
+              // initial={{ y: -200 }}
+              // viewport={{ once: true }}
+              // whileInView={{ y: 0 }}
+              // transition={{ duration: 1 }}
             >
-              <img src={Img0} className="img0" />
-            </motion.div>
+              <Img0 />
+            </div>
             <div className="office-automation">
               <h3 className="">Office Automation</h3>
               <p className="">
@@ -58,6 +79,15 @@ const ServicesPage = () => {
             </div>
           </div>
           <div className="grid">
+            <div
+              className="boxes"
+              // initial={{ y: 200 }}
+              // viewport={{ once: true }}
+              // whileInView={{ y: 0 }}
+              // transition={{ duration: 1 }}
+            >
+              <Img1 />
+            </div>
             <div className="office-automation">
               <h3 className="">Software Solutions</h3>
               <p>
@@ -66,26 +96,17 @@ const ServicesPage = () => {
                 tangible business outcomes.
               </p>
             </div>
-            <motion.div
-              className="boxes"
-              initial={{ y: 200 }}
-              viewport={{ once: true }}
-              whileInView={{ y: 0 }}
-              transition={{ duration: 1 }}
-            >
-              <img src={Img1} className="img1" />
-            </motion.div>
           </div>
           <div className="grid">
-            <motion.div
+            <div
               className="boxes"
-              initial={{ y: -200 }}
-              viewport={{ once: true }}
-              whileInView={{ y: 0 }}
-              transition={{ duration: 1 }}
+              // initial={{ y: -200 }}
+              // viewport={{ once: true }}
+              // whileInView={{ y: 0 }}
+              // transition={{ duration: 1 }}
             >
-              <img src={Img2} className="img2" />
-            </motion.div>
+              <Img2 />
+            </div>
             <div className="office-automation">
               <h3 className="">AV Solutions</h3>
               <p>
@@ -96,6 +117,15 @@ const ServicesPage = () => {
             </div>
           </div>
           <div className="grid">
+            <div
+              className="boxes"
+              // initial={{ y: 200 }}
+              // viewport={{ once: true }}
+              // whileInView={{ y: 0 }}
+              // transition={{ duration: 1 }}
+            >
+              <Img3 />
+            </div>
             <div className="office-automation">
               <h3 className="">Structured Cabling</h3>
               <p>
@@ -104,26 +134,17 @@ const ServicesPage = () => {
                 Multifunctional Printers.
               </p>
             </div>
-            <motion.div
-              className="boxes"
-              initial={{ y: 200 }}
-              viewport={{ once: true }}
-              whileInView={{ y: 0 }}
-              transition={{ duration: 1 }}
-            >
-              <img src={Img3} className="img3" />
-            </motion.div>
           </div>
           <div className="grid">
-            <motion.div
+            <div
               className="boxes"
-              initial={{ y: -200 }}
-              viewport={{ once: true }}
-              whileInView={{ y: 0 }}
-              transition={{ duration: 1 }}
+              // initial={{ y: -200 }}
+              // viewport={{ once: true }}
+              // whileInView={{ y: 0 }}
+              // transition={{ duration: 1 }}
             >
-              <img src={Img4} className="img4" />
-            </motion.div>
+              <Img4 />
+            </div>
             <div className="office-automation">
               <h3 className="">ELV Systems</h3>
               <p>
@@ -134,6 +155,15 @@ const ServicesPage = () => {
             </div>
           </div>
           <div className="grid">
+            <div
+              className="boxes"
+              // initial={{ y: 200 }}
+              // viewport={{ once: true }}
+              // whileInView={{ y: 0 }}
+              // transition={{ duration: 1 }}
+            >
+              <Img5 />
+            </div>
             <div className="office-automation">
               <h3 className="">Backup and Disaster Recovery Management</h3>
               <p>
@@ -144,26 +174,17 @@ const ServicesPage = () => {
                 Recovery and Disaster Management Systems.
               </p>
             </div>
-            <motion.div
-              className="boxes"
-              initial={{ y: 200 }}
-              viewport={{ once: true }}
-              whileInView={{ y: 0 }}
-              transition={{ duration: 1 }}
-            >
-              <img src={Img5} className="img5" />
-            </motion.div>
           </div>
           <div className="grid">
-            <motion.div
+            <div
               className="boxes"
-              initial={{ y: -200 }}
-              viewport={{ once: true }}
-              whileInView={{ y: 0 }}
-              transition={{ duration: 1 }}
+              // initial={{ y: -200 }}
+              // viewport={{ once: true }}
+              // whileInView={{ y: 0 }}
+              // transition={{ duration: 1 }}
             >
-              <img src={Img6} className="img4" />
-            </motion.div>
+              <Img6 />
+            </div>
             <div className="office-automation">
               <h3 className="">Home Automation</h3>
               <p>
@@ -178,6 +199,15 @@ const ServicesPage = () => {
             </div>
           </div>
           <div className="grid">
+            <div
+              className="boxes"
+              // initial={{ y: 200 }}
+              // viewport={{ once: true }}
+              // whileInView={{ y: 0 }}
+              // transition={{ duration: 1 }}
+            >
+              <Img7 />
+            </div>
             <div className="office-automation">
               <h3 className="">Cloud Services</h3>
               <p>
@@ -189,26 +219,17 @@ const ServicesPage = () => {
                 Subscription ) Onetech has all the solutions for you.
               </p>
             </div>
-            <motion.div
-              className="boxes"
-              initial={{ y: 200 }}
-              viewport={{ once: true }}
-              whileInView={{ y: 0 }}
-              transition={{ duration: 1 }}
-            >
-              <img src={Img7} className="img5" />
-            </motion.div>
           </div>
           <div className="grid">
-            <motion.div
+            <div
               className="boxes"
-              initial={{ y: -200 }}
-              viewport={{ once: true }}
-              whileInView={{ y: 0 }}
-              transition={{ duration: 1 }}
+              // initial={{ y: -200 }}
+              // viewport={{ once: true }}
+              // whileInView={{ y: 0 }}
+              // transition={{ duration: 1 }}
             >
-              <img src={Img8} className="img4" />
-            </motion.div>
+              <Img8 />
+            </div>
             <div className="office-automation">
               <h3 className="">Maintenance & Support</h3>
               <p>
@@ -223,6 +244,15 @@ const ServicesPage = () => {
             </div>
           </div>
           <div className="grid">
+            <div
+              className="boxes"
+              // initial={{ y: -200 }}
+              // viewport={{ once: true }}
+              // whileInView={{ y: 0 }}
+              // transition={{ duration: 1 }}
+            >
+              <Img9 />
+            </div>
             <div className="office-automation">
               <h3 className="">AI Based Solutions</h3>
               <p>
@@ -232,26 +262,17 @@ const ServicesPage = () => {
                 Implementation projects.
               </p>
             </div>
-            <motion.div
-              className="boxes"
-              initial={{ y: -200 }}
-              viewport={{ once: true }}
-              whileInView={{ y: 0 }}
-              transition={{ duration: 1 }}
-            >
-              <img src={Img9} className="img5" />
-            </motion.div>
           </div>
           <div className="grid">
-            <motion.div
+            <div
               className="boxes"
-              initial={{ y: -200 }}
-              viewport={{ once: true }}
-              whileInView={{ y: 0 }}
-              transition={{ duration: 1 }}
+              // initial={{ y: -200 }}
+              // viewport={{ once: true }}
+              // whileInView={{ y: 0 }}
+              // transition={{ duration: 1 }}
             >
-              <img src={Img10} className="img4" />
-            </motion.div>
+              <Img10 />
+            </div>
             <div className="Data-Centre-Solutions">
               <h3 className="">Data Centre Solutions</h3>
               <p>
@@ -267,6 +288,15 @@ const ServicesPage = () => {
             </div>
           </div>
           <div className="grid">
+            <div
+              className="boxes"
+              // initial={{ y: 200 }}
+              // viewport={{ once: true }}
+              // whileInView={{ y: 0 }}
+              // transition={{ duration: 1 }}
+            >
+              <Img11 />
+            </div>
             <div className="office-automation">
               <h3 className="">Microsoft Azure / Office 365</h3>
               <p>
@@ -278,19 +308,32 @@ const ServicesPage = () => {
                 easier
               </p>
             </div>
-            <motion.div
+          </div>
+
+          <div className="grid">
+            <div
               className="boxes"
-              initial={{ y: 200 }}
-              viewport={{ once: true }}
-              whileInView={{ y: 0 }}
-              transition={{ duration: 1 }}
+              // initial={{ y: 200 }}
+              // viewport={{ once: true }}
+              // whileInView={{ y: 0 }}
+              // transition={{ duration: 1 }}
             >
-              <img src={Img11} className="img5" />
-            </motion.div>
+              <Img12 />
+            </div>
+            <div className="office-automation">
+              <h3 className="">Web development</h3>
+              <p>
+                Web development services help create all types of web-based
+                software and ensure great experience for web users. Different
+                types of web solutions may seem similar from the outside but we
+                approach them differently and know what factors are winning in
+                each case.
+              </p>
+            </div>
           </div>
         </div>
       </div>
     </>
   );
-};
+}
 export default ServicesPage;

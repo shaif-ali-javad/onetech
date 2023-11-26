@@ -3,32 +3,21 @@ import "./services.css";
 
 import Img_txt from "./img-component/img-txt";
 import Img from "./img-component/img";
-// import Img0 from "./img-component/img0";
-// import Img1 from "./img-component/img1";
-// import Img2 from "./img-component/img2";
-// import Img3 from "./img-component/img3";
-// import Img4 from "./img-component/img4";
-// import Img5 from "./img-component/img5";
-// import Img6 from "./img-component/img6";
-// import Img7 from "./img-component/img7";
-// import Img8 from "./img-component/img8";
-// import Img9 from "./img-component/img9";
-// import Img10 from "./img-component/img10";
-// import Img11 from "./img-component/img11";
+import Img0 from "./img-component/img0";
+// import Img0 from "./image/parelall-scroll/0(1).jpg";
+import Img1 from "./img-component/img1";
+import Img2 from "./img-component/img2";
+import Img3 from "./img-component/img3";
+import Img4 from "./img-component/img4";
+import Img5 from "./img-component/img5";
+import Img6 from "./img-component/img6";
+import Img7 from "./img-component/img7";
+import Img8 from "./img-component/img8";
+import Img9 from "./img-component/img9";
+import Img10 from "./img-component/img10";
+import Img11 from "./img-component/img11";
+import Img12 from "./img-component/img12";
 
-// import Lottie, { LottieRef } from "lottie-react";
-// import animation1 from "../assets/1.json";
-// import animation2 from "../assets/2.json";
-// import animation3 from "../assets/3.json";
-// import animation4 from "../assets/4.json";
-// import animation5 from "../assets/5.json";
-// import animation6 from "../assets/6.json";
-// import animation7 from "../assets/7.json";
-// import animation8 from "../assets/8.json";
-// import animation9 from "../assets/9.json";
-// import animation10 from "../assets/10.json";
-// import animation11 from "../assets/11.json";
-// import animation12 from "../assets/12.json";
 // import { useScroll, transform } from "framer-motion";
 
 // const targetRef = (useRef < HTMLDivElement) | (null > null);
@@ -40,7 +29,7 @@ export class Services extends Component {
   render() {
     return (
       <>
-        {/* <Img_txt /> */}
+        {/* <Img_txt />  */}
         {/* <Img /> */}
         <div className="line">
           <h1 className="text-red-500">Value Added Range of ICT Solutions</h1>
@@ -50,7 +39,7 @@ export class Services extends Component {
             <br /> today’s business development challenges
           </p>
         </div>
-        {/* <Img0 /> */}
+        <Img0 />
         <div className="text0">
           <div className="text-1">
             <h3 className="text1 h1">Office Automation</h3>
@@ -61,14 +50,14 @@ export class Services extends Component {
             </p>
           </div>
           <div className="action text-center">
-            <p>
-              {/* <a
+            {/* <p>
+              <a
                 className="btn h1 hidden"
                 href="services/Office Automation.html"
               >
                 m o r e
-              </a> */}
-            </p>
+              </a>
+            </p> */}
           </div>
           {/* <div className="animate1">
             <Lottie
@@ -79,9 +68,9 @@ export class Services extends Component {
               animationData={animation1}
               className="img-2"
             />
-          </div> */}
+          </div>*/}
         </div>
-        {/* <Img1 /> */}
+        <Img1 />
         <div className="text3">
           <div className="text-center text4 text-3">
             <h3 className="text-white">Software Solutions</h3>
@@ -101,11 +90,8 @@ export class Services extends Component {
               </p> */}
             </div>
           </div>
-          {/* <div className="animate1">
-            <Lottie animationData={animation2} className="img-2" />
-          </div> */}
         </div>
-        {/* <Img2 /> */}
+        <Img2 />
         <div className="text3">
           <div className="text-center center text4 text-4">
             <h3 className="text-white">AV Solutions</h3>
@@ -122,11 +108,8 @@ export class Services extends Component {
               </p> */}
             </div>
           </div>
-          {/* <div className="animate1">
-            <Lottie animationData={animation3} className="img-4" />
-          </div> */}
         </div>
-        {/* <Img3 /> */}
+        <Img3 />
         <div className="text3">
           <div className="text-center center text4 text-4">
             <h3 className="text-white">Structured Cabling</h3>
@@ -146,11 +129,8 @@ export class Services extends Component {
               </p> */}
             </div>
           </div>
-          {/* <div className="animate1">
-            <Lottie animationData={animation4} className="img-2" />
-          </div> */}
         </div>
-        {/* <Img4 /> */}
+        <Img4 />
         <div className="text3">
           <div className="text-center center text4 text-4">
             <h3 className="text-white">ELV Systems</h3>
@@ -167,11 +147,8 @@ export class Services extends Component {
               </p> */}
             </div>
           </div>
-          {/* <div className="animate1">
-            <Lottie animationData={animation5} className="img-5" />
-          </div> */}
         </div>
-        {/* <Img5 /> */}
+        <Img5 />
         <div className="text3">
           <div className="text-center center text4 text-4">
             <h3 className="text-white">
@@ -195,11 +172,8 @@ export class Services extends Component {
               </p> */}
             </div>
           </div>
-          {/* <div className="animate1">
-            <Lottie animationData={animation6} className="img-6" />
-          </div> */}
         </div>
-        {/* <Img6 /> */}
+        <Img6 />
         <div className="text3">
           <div className="text-center center text4 text-4">
             <h3 className="text-white">Home Automation</h3>
@@ -223,11 +197,8 @@ export class Services extends Component {
               </p> */}
             </div>
           </div>
-          {/* <div className="animate1">
-            <Lottie animationData={animation7} className="img-7" />
-          </div> */}
         </div>
-        {/* <Img7 /> */}
+        <Img7 />
         <div className="text3">
           <div className="text-center center text4 text-4">
             <h3 className="text-white">Cloud Services</h3>
@@ -250,11 +221,8 @@ export class Services extends Component {
               </p> */}
             </div>
           </div>
-          {/* <div className="animate1">
-            <Lottie animationData={animation8} className="img-5" />
-          </div> */}
         </div>
-        {/* <Img8 /> */}
+        <Img8 />
         <div className="text3">
           <div className="text-center center text4 text-4">
             <h3 className="text-white">Maintenance & Support</h3>
@@ -278,11 +246,8 @@ export class Services extends Component {
               </p> */}
             </div>
           </div>
-          {/* <div className="animate1">
-            <Lottie animationData={animation9} className="img-5" />
-          </div> */}
         </div>
-        {/* <Img9 /> */}
+        <Img9 />
         <div className="text3">
           <div className="text-center center text4 text-4">
             <h3 className="text-white">AI Based Solutions</h3>
@@ -303,11 +268,8 @@ export class Services extends Component {
               </p> */}
             </div>
           </div>
-          {/* <div className="animate1">
-            <Lottie animationData={animation10} className="img-5" />
-          </div> */}
         </div>
-        {/* <Img10 /> */}
+        <Img10 />
         <div className="text3">
           <div className="text-center center text4">
             <h3 className="text-white">Data Centre Solutions</h3>
@@ -331,11 +293,8 @@ export class Services extends Component {
               </p> */}
             </div>
           </div>
-          {/* <div className="animate1">
-            <Lottie animationData={animation11} className="img-5" />
-          </div> */}
         </div>
-        {/* <Img11 /> */}
+        <Img11 />
         <div className="text3">
           <div className="text-center center text4">
             <h3 className="text-white">Microsoft Azure / Office 365</h3>
@@ -357,9 +316,29 @@ export class Services extends Component {
               </p> */}
             </div>
           </div>
-          {/* <div className="animate1">
-            <Lottie animationData={animation12} className="img-5" />
-          </div> */}
+        </div>
+        <Img12 />
+        <div className="text3">
+          <div className="text-center center text4">
+            <h3 className="text-white">Web development</h3>
+            <p>
+              Web development services help create all types of web-based
+              software and ensure great experience for web users. Different
+              types of web solutions may seem similar from the outside but we
+              approach them differently and know what factors are winning in
+              each case.
+            </p>
+            <div className="action">
+              {/* <p>
+                <a
+                  className="btn text-white"
+                  href="services/Microsoft Azure  Office 365.html"
+                >
+                  m o r e
+                </a>
+              </p> */}
+            </div>
+          </div>
         </div>
       </>
     );
