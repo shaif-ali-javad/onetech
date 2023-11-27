@@ -13,8 +13,8 @@ export class About extends Component {
             </h1>
           </div>
           <div class="text row ml-1">
-            <div class="text-center col-12 col-lg-5">
-              <img class="img-fluid" src="image/About-Us-400x324.png" alt="" />
+            <div class="text-center col-12 col-lg-5 mb-5 img-abt">
+              <img class="img" src="image/About-Us-400x324.png" alt="" />
             </div>
             <div class="col-12 col-lg-7">
               <p>

@@ -107,14 +107,15 @@ export class Footer extends Component {
                 <hr class="mb-4 mt-0 d-inline-block  style2" />
                 <div class="row">
                   <p class="d-flex col-12 col-lg-4">
-                    <i class="fas fa-phone mr-3"></i>+971 50 415 3141
+                    <i class="fas fa-phone mr-3 mt-1"></i>+971 50 415 3141
                   </p>
                   <p class="d-flex col-12 col-lg-4">
-                    <i class="fas fa-envelope mr-3"></i> sales@onetechuae.com
+                    <i class="fas fa-envelope mr-3 mt-1"></i>{" "}
+                    sales@onetechuae.com
                   </p>
                   <p class="d-flex col-12 col-lg-4">
-                    <i class="fas fa-home mr-3"></i> G11, Madina Mall, Muhaisnah
-                    4, P.O Box: 120735 Dubai-UAE
+                    <i class="fas fa-home mr-3 mt-1"></i>
+                    G11, Madina Mall, Muhaisnah 4, P.O Box: 120735 Dubai-UAE
                   </p>
                 </div>
               </div>
