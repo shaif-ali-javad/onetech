@@ -103,7 +103,7 @@ export class Footer extends Component {
           <section class="">
             <div class="container">
               <div class="mx-auto mb-md-0 mb-4">
-                <h6 class="text-uppercase fw-bold">Contact</h6>
+                <h6 class="text-uppercase fw-bold mt-4">Contact</h6>
                 <hr class="mb-4 mt-0 d-inline-block  style2" />
                 <div class="row">
                   <p class="d-flex col-12 col-lg-4">
