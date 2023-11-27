@@ -10,7 +10,7 @@ export class Footer extends Component {
               <span>Get connected with us on social networks</span>
             </div>
             <div className="">
-              <div class="row text-center mt-3">
+              <div class="row text-center mt-5">
                 <a href="" class="col-2 text-white me-0">
                   <i class="fab fa-facebook-f"></i>
                 </a>
