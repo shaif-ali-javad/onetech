@@ -2,9 +2,10 @@
   border-top: 1px solid #010d4a;
   color: #fff;
 }
-/* .style1 {
-  border-top: 1px solid #04104b;
-  border-bottom: 1px solid #04104c;
+/* @media screen and (max-width: 620px) {
+  .style1 {
+    display: block;
+  }
 } */
 .style2 {
   width: 60px;

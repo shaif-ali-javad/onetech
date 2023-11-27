@@ -5,30 +5,31 @@ export class Footer extends Component {
     return (
       <div class="">
         <footer class="text-lg-left  style0">
-          <section class="d-flex justify-content-between p-4 style1">
-            <div class="text-left me-5">
-              <span>Get connected with us on social networks:</span>
+          <section class="justify-content-between p-4 style1">
+            <div class="text-center me-5">
+              <span>Get connected with us on social networks</span>
             </div>
-
-            <div class="row">
-              <a href="" class="col-2 text-white me-0">
-                <i class="fab fa-facebook-f"></i>
-              </a>
-              <a href="" class="col-2 text-white me-0">
-                <i class="fab fa-twitter"></i>
-              </a>
-              <a href="" class="col-2 text-white me-0">
-                <i class="fab fa-google"></i>
-              </a>
-              <a href="" class="col-2 text-white me-0">
-                <i class="fab fa-instagram"></i>
-              </a>
-              <a href="" class="col-2 text-white me-0">
-                <i class="fab fa-linkedin"></i>
-              </a>
-              <a href="" class="col-2 text-white me-0">
-                <i class="fab fa-github"></i>
-              </a>
+            <div className="">
+              <div class="row text-center mt-3">
+                <a href="" class="col-2 text-white me-0">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="" class="col-2 text-white me-0">
+                  <i class="fab fa-twitter"></i>
+                </a>
+                <a href="" class="col-2 text-white me-0">
+                  <i class="fab fa-google"></i>
+                </a>
+                <a href="" class="col-2 text-white me-0">
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <a href="" class="col-2 text-white me-0">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="" class="col-2 text-white me-0">
+                  <i class="fab fa-github"></i>
+                </a>
+              </div>
             </div>
           </section>
 
