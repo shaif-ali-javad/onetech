@@ -7,7 +7,7 @@ import Partners from "./home/partners/partners";
 import Footer from "./home/footer/footer";
 import Web from "./home/web-services/web-s";
 import ServicesPage from "./framer-m";
-import Example from "./framer-motion";
+// import Example from "./framer-motion";
 
 function Home() {
   return (
