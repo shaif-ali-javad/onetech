@@ -9,7 +9,7 @@ export class contact extends Component {
     return (
       <div>
         <Navbar />
-        <Slider />
+        {/* <Slider /> */}
         <Contact />
         <Footer />
       </div>
