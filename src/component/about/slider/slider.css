@@ -1,8 +1,13 @@
 /* Make the image fully responsive */
-.carousel-inner {
-  max-height: 25rem;
-}
 
+.slide-img {
+  width: 100%;
+  transform: translateY(-30%);
+}
+.slide-container {
+  height: 400px;
+  overflow: hidden;
+}
 .overlay {
   position: absolute;
   top: 0;

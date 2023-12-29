@@ -1,12 +1,12 @@
 import React, { Component } from "react";
-// import "./slider.css";
+import "./slider.css";
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 
-import logo1 from "../image/About-Us-400x324.jpg";
-import logo2 from "../image/About-Us-400x324.png";
+import slide0 from "../../../assets/image/1582654455-3655.webp";
+import slide1 from "../../../assets/image/20512813.jpg";
 
 export default class Slide extends Component {
   render() {
@@ -19,15 +19,15 @@ export default class Slide extends Component {
       slidesToScroll: 1,
       autoplay: true,
       cssEase: "linear",
-      initialSlide: 1,
+      initialSlide: 0,
     };
     return (
       <Slider {...settings} className="logo-carousel carousel">
-        <div className="carousel-logo">
-          <img src={logo1} />
+        <div className="slide-container">
+          <img src="image/20512813.jpg" className="slide-img" />
         </div>
-        <div className="carousel-logo">
-          <img src={logo2} />
+        <div className="slide-container">
+          <img src="image/1582654455-3655.webp" className="slide-img" />
         </div>
       </Slider>
     );
