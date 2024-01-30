@@ -12,7 +12,7 @@
   position: absolute;
   z-index: -1;
   width: 130vw;
-  transform: translate(-10%, -75%);
+  transform: translate(-25%, -75%);
 }
 
 .content-main-container {
@@ -166,7 +166,7 @@
   .img-main-1 {
     width: 120vw;
     margin-top: 15px;
-    margin-left: 10px;
+    margin-left: 50px;
     /* transform: translate(-30%, -60%); */
   }
 }
@@ -316,7 +316,7 @@
   .img-main-1 {
     width: 130vw;
     margin-top: 15px;
-    margin-left: -20px;
+    margin-left: 60px;
     /* transform: translate(-52%, -45%); */
   }
 }

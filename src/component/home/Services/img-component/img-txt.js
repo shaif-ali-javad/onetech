@@ -12,7 +12,7 @@ const Img_txt = () => (
       <div className="content-main">
         <div className="main-txt">
           <div className="animate__animated animate__bounce img-main-contain-txt">
-            <span className="img-main-txt">Secure IT with us</span>
+            <span className="img-main-txt">Secure IT<br />with us</span>
           </div>
           <div className="content-main-type">{/* <Text /> */}</div>
           <div className="img-main-1-container">
